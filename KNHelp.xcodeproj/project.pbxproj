@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3D05501DBDBEDC00A637DB /* KNFileHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D054F1DBDBEDC00A637DB /* KNFileHander.m */; };
+		7FFDC5391DB9B4DB00853A3E /* KNHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5381DB9B4DB00853A3E /* KNHelp.m */; };
+		7FFDC53A1DB9B4DB00853A3E /* KNHelp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FFDC5371DB9B4DB00853A3E /* KNHelp.h */; };
+		7FFDC5591DB9B74100853A3E /* KNFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5451DB9B74100853A3E /* KNFlowView.m */; };
+		7FFDC55A1DB9B74100853A3E /* KNGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5471DB9B74100853A3E /* KNGIFImageView.m */; };
+		7FFDC55B1DB9B74100853A3E /* HZYIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5491DB9B74100853A3E /* HZYIndicatorView.m */; };
+		7FFDC55D1DB9B74100853A3E /* BMKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5581DB9B74100853A3E /* BMKeyboardManager.m */; };
+		7FFDC56C1DB9B8C400853A3E /* GKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC56B1DB9B8C400853A3E /* GKTextView.m */; };
+		7FFDC56F1DB9B90600853A3E /* KNException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC56E1DB9B90600853A3E /* KNException.m */; };
+		7FFDC5721DB9BA2C00853A3E /* KNExceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5711DB9BA2C00853A3E /* KNExceptionViewController.m */; };
+		7FFDC5751DB9FA2D00853A3E /* BaseFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5741DB9FA2D00853A3E /* BaseFile.mm */; };
+		7FFDC5781DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5771DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm */; };
+		7FFDC57C1DBA03AC00853A3E /* KNSystemPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC57B1DBA03AC00853A3E /* KNSystemPath.m */; };
+		7FFDC5B31DBA4A4000853A3E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5A71DBA4A4000853A3E /* AFHTTPSessionManager.m */; };
+		7FFDC5B41DBA4A4000853A3E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5AA1DBA4A4000853A3E /* AFNetworkReachabilityManager.m */; };
+		7FFDC5B51DBA4A4000853A3E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5AC1DBA4A4000853A3E /* AFSecurityPolicy.m */; };
+		7FFDC5B61DBA4A4000853A3E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5AE1DBA4A4000853A3E /* AFURLRequestSerialization.m */; };
+		7FFDC5B71DBA4A4000853A3E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5B01DBA4A4000853A3E /* AFURLResponseSerialization.m */; };
+		7FFDC5B81DBA4A4000853A3E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5B21DBA4A4000853A3E /* AFURLSessionManager.m */; };
+		7FFDC5BB1DBA5ACF00853A3E /* KNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5BA1DBA5ACF00853A3E /* KNBaseViewController.m */; };
+		7FFDC5BE1DBA5B2800853A3E /* UIColor+KN.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5BD1DBA5B2800853A3E /* UIColor+KN.m */; };
+		7FFDC5C11DBA5B6400853A3E /* KNAppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5C01DBA5B6400853A3E /* KNAppColor.m */; };
+		7FFDC5C41DBA5C3900853A3E /* KNBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5C31DBA5C3900853A3E /* KNBaseTableViewController.m */; };
+		7FFDC5C71DBA685400853A3E /* KNAppMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5C61DBA685400853A3E /* KNAppMain.m */; };
+		7FFDC5CA1DBA691800853A3E /* KNLoginInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5C91DBA691800853A3E /* KNLoginInfoManager.m */; };
+		7FFDC5CE1DBA6B4700853A3E /* NSString+KN.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5CD1DBA6B4700853A3E /* NSString+KN.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7FFDC5321DB9B4DB00853A3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7FFDC53A1DB9B4DB00853A3E /* KNHelp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F3D054E1DBDBEDC00A637DB /* KNFileHander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFileHander.h; sourceTree = "<group>"; };
+		7F3D054F1DBDBEDC00A637DB /* KNFileHander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFileHander.m; sourceTree = "<group>"; };
+		7FFDC5341DB9B4DB00853A3E /* libKNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKNHelp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFDC5371DB9B4DB00853A3E /* KNHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNHelp.h; sourceTree = "<group>"; };
+		7FFDC5381DB9B4DB00853A3E /* KNHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNHelp.m; sourceTree = "<group>"; };
+		7FFDC5441DB9B74100853A3E /* KNFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFlowView.h; sourceTree = "<group>"; };
+		7FFDC5451DB9B74100853A3E /* KNFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFlowView.m; sourceTree = "<group>"; };
+		7FFDC5461DB9B74100853A3E /* KNGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNGIFImageView.h; sourceTree = "<group>"; };
+		7FFDC5471DB9B74100853A3E /* KNGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNGIFImageView.m; sourceTree = "<group>"; };
+		7FFDC5481DB9B74100853A3E /* HZYIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYIndicatorView.h; sourceTree = "<group>"; };
+		7FFDC5491DB9B74100853A3E /* HZYIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYIndicatorView.m; sourceTree = "<group>"; };
+		7FFDC5571DB9B74100853A3E /* BMKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKeyboardManager.h; sourceTree = "<group>"; };
+		7FFDC5581DB9B74100853A3E /* BMKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKeyboardManager.m; sourceTree = "<group>"; };
+		7FFDC55F1DB9B84800853A3E /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		7FFDC5601DB9B84800853A3E /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		7FFDC5611DB9B84800853A3E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		7FFDC5621DB9B84800853A3E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7FFDC5631DB9B84800853A3E /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		7FFDC5641DB9B84800853A3E /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		7FFDC5651DB9B84800853A3E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7FFDC5661DB9B84800853A3E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7FFDC5671DB9B84800853A3E /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		7FFDC5681DB9B84800853A3E /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		7FFDC5691DB9B84800853A3E /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		7FFDC56A1DB9B8C400853A3E /* GKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTextView.h; sourceTree = "<group>"; };
+		7FFDC56B1DB9B8C400853A3E /* GKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTextView.m; sourceTree = "<group>"; };
+		7FFDC56D1DB9B90600853A3E /* KNException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNException.h; sourceTree = "<group>"; };
+		7FFDC56E1DB9B90600853A3E /* KNException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNException.m; sourceTree = "<group>"; };
+		7FFDC5701DB9BA2C00853A3E /* KNExceptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNExceptionViewController.h; sourceTree = "<group>"; };
+		7FFDC5711DB9BA2C00853A3E /* KNExceptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNExceptionViewController.m; sourceTree = "<group>"; };
+		7FFDC5731DB9FA2D00853A3E /* BaseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFile.h; sourceTree = "<group>"; };
+		7FFDC5741DB9FA2D00853A3E /* BaseFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseFile.mm; sourceTree = "<group>"; };
+		7FFDC5761DB9FA4400853A3E /* NSMutableObject+SafeInsert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableObject+SafeInsert.h"; sourceTree = "<group>"; };
+		7FFDC5771DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSMutableObject+SafeInsert.mm"; sourceTree = "<group>"; };
+		7FFDC5791DBA036C00853A3E /* KNHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNHelpUtil.h; sourceTree = "<group>"; };
+		7FFDC57A1DBA03AC00853A3E /* KNSystemPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSystemPath.h; sourceTree = "<group>"; };
+		7FFDC57B1DBA03AC00853A3E /* KNSystemPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSystemPath.m; sourceTree = "<group>"; };
+		7FFDC5A61DBA4A4000853A3E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7FFDC5A71DBA4A4000853A3E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7FFDC5A81DBA4A4000853A3E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		7FFDC5A91DBA4A4000853A3E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		7FFDC5AA1DBA4A4000853A3E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		7FFDC5AB1DBA4A4000853A3E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7FFDC5AC1DBA4A4000853A3E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7FFDC5AD1DBA4A4000853A3E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7FFDC5AE1DBA4A4000853A3E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7FFDC5AF1DBA4A4000853A3E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7FFDC5B01DBA4A4000853A3E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7FFDC5B11DBA4A4000853A3E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		7FFDC5B21DBA4A4000853A3E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		7FFDC5B91DBA5ACF00853A3E /* KNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseViewController.h; sourceTree = "<group>"; };
+		7FFDC5BA1DBA5ACF00853A3E /* KNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseViewController.m; sourceTree = "<group>"; };
+		7FFDC5BC1DBA5B2800853A3E /* UIColor+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KN.h"; sourceTree = "<group>"; };
+		7FFDC5BD1DBA5B2800853A3E /* UIColor+KN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KN.m"; sourceTree = "<group>"; };
+		7FFDC5BF1DBA5B6400853A3E /* KNAppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAppColor.h; sourceTree = "<group>"; };
+		7FFDC5C01DBA5B6400853A3E /* KNAppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAppColor.m; sourceTree = "<group>"; };
+		7FFDC5C21DBA5C3900853A3E /* KNBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseTableViewController.h; sourceTree = "<group>"; };
+		7FFDC5C31DBA5C3900853A3E /* KNBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseTableViewController.m; sourceTree = "<group>"; };
+		7FFDC5C51DBA685400853A3E /* KNAppMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAppMain.h; sourceTree = "<group>"; };
+		7FFDC5C61DBA685400853A3E /* KNAppMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAppMain.m; sourceTree = "<group>"; };
+		7FFDC5C81DBA691800853A3E /* KNLoginInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNLoginInfoManager.h; sourceTree = "<group>"; };
+		7FFDC5C91DBA691800853A3E /* KNLoginInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLoginInfoManager.m; sourceTree = "<group>"; };
+		7FFDC5CC1DBA6B4700853A3E /* NSString+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KN.h"; sourceTree = "<group>"; };
+		7FFDC5CD1DBA6B4700853A3E /* NSString+KN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KN.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FFDC5311DB9B4DB00853A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FFDC52B1DB9B4DB00853A3E = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5361DB9B4DB00853A3E /* KNHelp */,
+				7FFDC5351DB9B4DB00853A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFDC5351DB9B4DB00853A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5341DB9B4DB00853A3E /* libKNHelp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FFDC5361DB9B4DB00853A3E /* KNHelp */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC57F1DBA350A00853A3E /* Vendor */,
+				7FFDC5401DB9B74100853A3E /* Account */,
+				7FFDC5411DB9B74100853A3E /* Animation */,
+				7FFDC5421DB9B74100853A3E /* Controller */,
+				7FFDC5431DB9B74100853A3E /* UI */,
+				7FFDC54D1DB9B74100853A3E /* Category */,
+				7FFDC54E1DB9B74100853A3E /* Crash */,
+				7FFDC54F1DB9B74100853A3E /* Log */,
+				7FFDC5501DB9B74100853A3E /* Network */,
+				7FFDC5511DB9B74100853A3E /* Reverse */,
+				7FFDC5521DB9B74100853A3E /* SocialShare */,
+				7FFDC5531DB9B74100853A3E /* SQLiteHelper */,
+				7FFDC5541DB9B74100853A3E /* Storage */,
+				7FFDC5551DB9B74100853A3E /* Util */,
+				7FFDC5371DB9B4DB00853A3E /* KNHelp.h */,
+				7FFDC5381DB9B4DB00853A3E /* KNHelp.m */,
+				7FFDC5791DBA036C00853A3E /* KNHelpUtil.h */,
+			);
+			path = KNHelp;
+			sourceTree = "<group>";
+		};
+		7FFDC5401DB9B74100853A3E /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5C81DBA691800853A3E /* KNLoginInfoManager.h */,
+				7FFDC5C91DBA691800853A3E /* KNLoginInfoManager.m */,
+				7F3D054E1DBDBEDC00A637DB /* KNFileHander.h */,
+				7F3D054F1DBDBEDC00A637DB /* KNFileHander.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		7FFDC5411DB9B74100853A3E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		7FFDC5421DB9B74100853A3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5B91DBA5ACF00853A3E /* KNBaseViewController.h */,
+				7FFDC5BA1DBA5ACF00853A3E /* KNBaseViewController.m */,
+				7FFDC5C21DBA5C3900853A3E /* KNBaseTableViewController.h */,
+				7FFDC5C31DBA5C3900853A3E /* KNBaseTableViewController.m */,
+				7FFDC5C51DBA685400853A3E /* KNAppMain.h */,
+				7FFDC5C61DBA685400853A3E /* KNAppMain.m */,
+			);
+			name = Controller;
+			path = BMController;
+			sourceTree = "<group>";
+		};
+		7FFDC5431DB9B74100853A3E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5BF1DBA5B6400853A3E /* KNAppColor.h */,
+				7FFDC5C01DBA5B6400853A3E /* KNAppColor.m */,
+				7FFDC5BC1DBA5B2800853A3E /* UIColor+KN.h */,
+				7FFDC5BD1DBA5B2800853A3E /* UIColor+KN.m */,
+				7FFDC56A1DB9B8C400853A3E /* GKTextView.h */,
+				7FFDC56B1DB9B8C400853A3E /* GKTextView.m */,
+				7FFDC5441DB9B74100853A3E /* KNFlowView.h */,
+				7FFDC5451DB9B74100853A3E /* KNFlowView.m */,
+				7FFDC5461DB9B74100853A3E /* KNGIFImageView.h */,
+				7FFDC5471DB9B74100853A3E /* KNGIFImageView.m */,
+				7FFDC5481DB9B74100853A3E /* HZYIndicatorView.h */,
+				7FFDC5491DB9B74100853A3E /* HZYIndicatorView.m */,
+			);
+			name = UI;
+			path = BMUI;
+			sourceTree = "<group>";
+		};
+		7FFDC54D1DB9B74100853A3E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5761DB9FA4400853A3E /* NSMutableObject+SafeInsert.h */,
+				7FFDC5771DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm */,
+				7FFDC5CC1DBA6B4700853A3E /* NSString+KN.h */,
+				7FFDC5CD1DBA6B4700853A3E /* NSString+KN.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7FFDC54E1DB9B74100853A3E /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC56D1DB9B90600853A3E /* KNException.h */,
+				7FFDC56E1DB9B90600853A3E /* KNException.m */,
+				7FFDC5701DB9BA2C00853A3E /* KNExceptionViewController.h */,
+				7FFDC5711DB9BA2C00853A3E /* KNExceptionViewController.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		7FFDC54F1DB9B74100853A3E /* Log */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		7FFDC5501DB9B74100853A3E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5A51DBA4A4000853A3E /* AFNetworking */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7FFDC5511DB9B74100853A3E /* Reverse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reverse;
+			sourceTree = "<group>";
+		};
+		7FFDC5521DB9B74100853A3E /* SocialShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SocialShare;
+			sourceTree = "<group>";
+		};
+		7FFDC5531DB9B74100853A3E /* SQLiteHelper */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC55E1DB9B84800853A3E /* fmdb */,
+			);
+			path = SQLiteHelper;
+			sourceTree = "<group>";
+		};
+		7FFDC5541DB9B74100853A3E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5731DB9FA2D00853A3E /* BaseFile.h */,
+				7FFDC5741DB9FA2D00853A3E /* BaseFile.mm */,
+				7FFDC57A1DBA03AC00853A3E /* KNSystemPath.h */,
+				7FFDC57B1DBA03AC00853A3E /* KNSystemPath.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		7FFDC5551DB9B74100853A3E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5561DB9B74100853A3E /* KeyboardManager */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7FFDC5561DB9B74100853A3E /* KeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5571DB9B74100853A3E /* BMKeyboardManager.h */,
+				7FFDC5581DB9B74100853A3E /* BMKeyboardManager.m */,
+			);
+			path = KeyboardManager;
+			sourceTree = "<group>";
+		};
+		7FFDC55E1DB9B84800853A3E /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC55F1DB9B84800853A3E /* FMDatabase.h */,
+				7FFDC5601DB9B84800853A3E /* FMDatabase.m */,
+				7FFDC5611DB9B84800853A3E /* FMDatabaseAdditions.h */,
+				7FFDC5621DB9B84800853A3E /* FMDatabaseAdditions.m */,
+				7FFDC5631DB9B84800853A3E /* FMDatabasePool.h */,
+				7FFDC5641DB9B84800853A3E /* FMDatabasePool.m */,
+				7FFDC5651DB9B84800853A3E /* FMDatabaseQueue.h */,
+				7FFDC5661DB9B84800853A3E /* FMDatabaseQueue.m */,
+				7FFDC5671DB9B84800853A3E /* FMDB.h */,
+				7FFDC5681DB9B84800853A3E /* FMResultSet.h */,
+				7FFDC5691DB9B84800853A3E /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		7FFDC57F1DBA350A00853A3E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7FFDC5A51DBA4A4000853A3E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7FFDC5A61DBA4A4000853A3E /* AFHTTPSessionManager.h */,
+				7FFDC5A71DBA4A4000853A3E /* AFHTTPSessionManager.m */,
+				7FFDC5A81DBA4A4000853A3E /* AFNetworking.h */,
+				7FFDC5A91DBA4A4000853A3E /* AFNetworkReachabilityManager.h */,
+				7FFDC5AA1DBA4A4000853A3E /* AFNetworkReachabilityManager.m */,
+				7FFDC5AB1DBA4A4000853A3E /* AFSecurityPolicy.h */,
+				7FFDC5AC1DBA4A4000853A3E /* AFSecurityPolicy.m */,
+				7FFDC5AD1DBA4A4000853A3E /* AFURLRequestSerialization.h */,
+				7FFDC5AE1DBA4A4000853A3E /* AFURLRequestSerialization.m */,
+				7FFDC5AF1DBA4A4000853A3E /* AFURLResponseSerialization.h */,
+				7FFDC5B01DBA4A4000853A3E /* AFURLResponseSerialization.m */,
+				7FFDC5B11DBA4A4000853A3E /* AFURLSessionManager.h */,
+				7FFDC5B21DBA4A4000853A3E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FFDC5331DB9B4DB00853A3E /* KNHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFDC53D1DB9B4DB00853A3E /* Build configuration list for PBXNativeTarget "KNHelp" */;
+			buildPhases = (
+				7FFDC5301DB9B4DB00853A3E /* Sources */,
+				7FFDC5311DB9B4DB00853A3E /* Frameworks */,
+				7FFDC5321DB9B4DB00853A3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNHelp;
+			productName = KNHelp;
+			productReference = 7FFDC5341DB9B4DB00853A3E /* libKNHelp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FFDC52C1DB9B4DB00853A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = KennyHuang;
+				TargetAttributes = {
+					7FFDC5331DB9B4DB00853A3E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7FFDC52F1DB9B4DB00853A3E /* Build configuration list for PBXProject "KNHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FFDC52B1DB9B4DB00853A3E;
+			productRefGroup = 7FFDC5351DB9B4DB00853A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFDC5331DB9B4DB00853A3E /* KNHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FFDC5301DB9B4DB00853A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFDC5B81DBA4A4000853A3E /* AFURLSessionManager.m in Sources */,
+				7FFDC5B51DBA4A4000853A3E /* AFSecurityPolicy.m in Sources */,
+				7FFDC5BE1DBA5B2800853A3E /* UIColor+KN.m in Sources */,
+				7FFDC55B1DB9B74100853A3E /* HZYIndicatorView.m in Sources */,
+				7FFDC5CE1DBA6B4700853A3E /* NSString+KN.m in Sources */,
+				7FFDC5B41DBA4A4000853A3E /* AFNetworkReachabilityManager.m in Sources */,
+				7FFDC5BB1DBA5ACF00853A3E /* KNBaseViewController.m in Sources */,
+				7F3D05501DBDBEDC00A637DB /* KNFileHander.m in Sources */,
+				7FFDC57C1DBA03AC00853A3E /* KNSystemPath.m in Sources */,
+				7FFDC5751DB9FA2D00853A3E /* BaseFile.mm in Sources */,
+				7FFDC5B31DBA4A4000853A3E /* AFHTTPSessionManager.m in Sources */,
+				7FFDC5CA1DBA691800853A3E /* KNLoginInfoManager.m in Sources */,
+				7FFDC56C1DB9B8C400853A3E /* GKTextView.m in Sources */,
+				7FFDC5C11DBA5B6400853A3E /* KNAppColor.m in Sources */,
+				7FFDC5391DB9B4DB00853A3E /* KNHelp.m in Sources */,
+				7FFDC5781DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm in Sources */,
+				7FFDC5C71DBA685400853A3E /* KNAppMain.m in Sources */,
+				7FFDC5C41DBA5C3900853A3E /* KNBaseTableViewController.m in Sources */,
+				7FFDC5721DB9BA2C00853A3E /* KNExceptionViewController.m in Sources */,
+				7FFDC5591DB9B74100853A3E /* KNFlowView.m in Sources */,
+				7FFDC55A1DB9B74100853A3E /* KNGIFImageView.m in Sources */,
+				7FFDC5B61DBA4A4000853A3E /* AFURLRequestSerialization.m in Sources */,
+				7FFDC56F1DB9B90600853A3E /* KNException.m in Sources */,
+				7FFDC5B71DBA4A4000853A3E /* AFURLResponseSerialization.m in Sources */,
+				7FFDC55D1DB9B74100853A3E /* BMKeyboardManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FFDC53B1DB9B4DB00853A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FFDC53C1DB9B4DB00853A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FFDC53E1DB9B4DB00853A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FFDC53F1DB9B4DB00853A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FFDC52F1DB9B4DB00853A3E /* Build configuration list for PBXProject "KNHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFDC53B1DB9B4DB00853A3E /* Debug */,
+				7FFDC53C1DB9B4DB00853A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFDC53D1DB9B4DB00853A3E /* Build configuration list for PBXNativeTarget "KNHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFDC53E1DB9B4DB00853A3E /* Debug */,
+				7FFDC53F1DB9B4DB00853A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FFDC52C1DB9B4DB00853A3E /* Project object */;
+}
