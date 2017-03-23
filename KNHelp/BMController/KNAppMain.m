@@ -31,7 +31,7 @@
         else
         {
             CGRect rect = self.rootViewController.view.frame;
-            KNGraphicsBeginImageContext(self.window.bounds.size);
+            UIGraphicsBeginImageContext(self.window.bounds.size);
             [self.window.layer renderInContext:UIGraphicsGetCurrentContext()];
             UIImage *image =UIGraphicsGetImageFromCurrentImageContext();
             UIGraphicsEndImageContext();

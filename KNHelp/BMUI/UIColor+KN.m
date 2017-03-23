@@ -6,7 +6,7 @@
 //  Copyright © 2015年 BM. All rights reserved.
 //
 
-#import "UIColor+BM.h"
+#import "UIColor+KN.h"
 
 @implementation UIColor (KN)
 

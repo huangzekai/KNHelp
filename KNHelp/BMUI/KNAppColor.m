@@ -7,6 +7,7 @@
 //
 
 #import "KNAppColor.h"
+#import "UIColor+KN.h"
 
 const static NSUInteger NAVIGATIONBAR_BG_COLOR = 0xff8903;
 const static NSUInteger NAVIGATIONBAR_TITLE_COLOR = 0xffffff;

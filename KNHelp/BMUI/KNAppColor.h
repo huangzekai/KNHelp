@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 ///项目中出现多次的颜色放在这里，统一处理，以方便以后若要做换肤功能，提供一换肤配置文件来读取即可
 

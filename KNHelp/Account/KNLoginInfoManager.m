@@ -14,6 +14,7 @@
 #define kLoginInfoFile @"syslogin".absolutePathComponent
 
 @implementation KNLoginInfoManager
+/*
 //初始化
 - (id)init{
     self = [super init];
@@ -90,6 +91,6 @@
             }
         }
     }
-}
+}*/
 @end
 

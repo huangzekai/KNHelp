@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13348FAF9B75A100C58982EE /* libPods-KNHelp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C305FC1F6265B7162CD4C723 /* libPods-KNHelp.a */; };
 		7F3D05501DBDBEDC00A637DB /* KNFileHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D054F1DBDBEDC00A637DB /* KNFileHander.m */; };
 		7FFDC5391DB9B4DB00853A3E /* KNHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5381DB9B4DB00853A3E /* KNHelp.m */; };
 		7FFDC53A1DB9B4DB00853A3E /* KNHelp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FFDC5371DB9B4DB00853A3E /* KNHelp.h */; };
@@ -20,12 +21,6 @@
 		7FFDC5751DB9FA2D00853A3E /* BaseFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5741DB9FA2D00853A3E /* BaseFile.mm */; };
 		7FFDC5781DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5771DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm */; };
 		7FFDC57C1DBA03AC00853A3E /* KNSystemPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC57B1DBA03AC00853A3E /* KNSystemPath.m */; };
-		7FFDC5B31DBA4A4000853A3E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5A71DBA4A4000853A3E /* AFHTTPSessionManager.m */; };
-		7FFDC5B41DBA4A4000853A3E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5AA1DBA4A4000853A3E /* AFNetworkReachabilityManager.m */; };
-		7FFDC5B51DBA4A4000853A3E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5AC1DBA4A4000853A3E /* AFSecurityPolicy.m */; };
-		7FFDC5B61DBA4A4000853A3E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5AE1DBA4A4000853A3E /* AFURLRequestSerialization.m */; };
-		7FFDC5B71DBA4A4000853A3E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5B01DBA4A4000853A3E /* AFURLResponseSerialization.m */; };
-		7FFDC5B81DBA4A4000853A3E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5B21DBA4A4000853A3E /* AFURLSessionManager.m */; };
 		7FFDC5BB1DBA5ACF00853A3E /* KNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5BA1DBA5ACF00853A3E /* KNBaseViewController.m */; };
 		7FFDC5BE1DBA5B2800853A3E /* UIColor+KN.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5BD1DBA5B2800853A3E /* UIColor+KN.m */; };
 		7FFDC5C11DBA5B6400853A3E /* KNAppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5C01DBA5B6400853A3E /* KNAppColor.m */; };
@@ -49,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D34FCB2D1DDC7C255A23554 /* Pods-KNHelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNHelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNHelp/Pods-KNHelp.debug.xcconfig"; sourceTree = "<group>"; };
 		7F3D054E1DBDBEDC00A637DB /* KNFileHander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFileHander.h; sourceTree = "<group>"; };
 		7F3D054F1DBDBEDC00A637DB /* KNFileHander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFileHander.m; sourceTree = "<group>"; };
 		7FFDC5341DB9B4DB00853A3E /* libKNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKNHelp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,17 +58,6 @@
 		7FFDC5491DB9B74100853A3E /* HZYIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYIndicatorView.m; sourceTree = "<group>"; };
 		7FFDC5571DB9B74100853A3E /* BMKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKeyboardManager.h; sourceTree = "<group>"; };
 		7FFDC5581DB9B74100853A3E /* BMKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKeyboardManager.m; sourceTree = "<group>"; };
-		7FFDC55F1DB9B84800853A3E /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		7FFDC5601DB9B84800853A3E /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		7FFDC5611DB9B84800853A3E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		7FFDC5621DB9B84800853A3E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		7FFDC5631DB9B84800853A3E /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		7FFDC5641DB9B84800853A3E /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		7FFDC5651DB9B84800853A3E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		7FFDC5661DB9B84800853A3E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		7FFDC5671DB9B84800853A3E /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		7FFDC5681DB9B84800853A3E /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		7FFDC5691DB9B84800853A3E /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		7FFDC56A1DB9B8C400853A3E /* GKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTextView.h; sourceTree = "<group>"; };
 		7FFDC56B1DB9B8C400853A3E /* GKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTextView.m; sourceTree = "<group>"; };
 		7FFDC56D1DB9B90600853A3E /* KNException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNException.h; sourceTree = "<group>"; };
@@ -86,19 +71,6 @@
 		7FFDC5791DBA036C00853A3E /* KNHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNHelpUtil.h; sourceTree = "<group>"; };
 		7FFDC57A1DBA03AC00853A3E /* KNSystemPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSystemPath.h; sourceTree = "<group>"; };
 		7FFDC57B1DBA03AC00853A3E /* KNSystemPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSystemPath.m; sourceTree = "<group>"; };
-		7FFDC5A61DBA4A4000853A3E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		7FFDC5A71DBA4A4000853A3E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		7FFDC5A81DBA4A4000853A3E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		7FFDC5A91DBA4A4000853A3E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		7FFDC5AA1DBA4A4000853A3E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		7FFDC5AB1DBA4A4000853A3E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		7FFDC5AC1DBA4A4000853A3E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		7FFDC5AD1DBA4A4000853A3E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		7FFDC5AE1DBA4A4000853A3E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		7FFDC5AF1DBA4A4000853A3E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		7FFDC5B01DBA4A4000853A3E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		7FFDC5B11DBA4A4000853A3E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		7FFDC5B21DBA4A4000853A3E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		7FFDC5B91DBA5ACF00853A3E /* KNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseViewController.h; sourceTree = "<group>"; };
 		7FFDC5BA1DBA5ACF00853A3E /* KNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseViewController.m; sourceTree = "<group>"; };
 		7FFDC5BC1DBA5B2800853A3E /* UIColor+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KN.h"; sourceTree = "<group>"; };
@@ -113,6 +85,8 @@
 		7FFDC5C91DBA691800853A3E /* KNLoginInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLoginInfoManager.m; sourceTree = "<group>"; };
 		7FFDC5CC1DBA6B4700853A3E /* NSString+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KN.h"; sourceTree = "<group>"; };
 		7FFDC5CD1DBA6B4700853A3E /* NSString+KN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KN.m"; sourceTree = "<group>"; };
+		B39F98984891B44CA43CFFAF /* Pods-KNHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNHelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNHelp/Pods-KNHelp.release.xcconfig"; sourceTree = "<group>"; };
+		C305FC1F6265B7162CD4C723 /* libPods-KNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,17 +94,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13348FAF9B75A100C58982EE /* libPods-KNHelp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4145BD9C8B5874E4A31B1C41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C305FC1F6265B7162CD4C723 /* libPods-KNHelp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7FFDC52B1DB9B4DB00853A3E = {
 			isa = PBXGroup;
 			children = (
 				7FFDC5361DB9B4DB00853A3E /* KNHelp */,
 				7FFDC5351DB9B4DB00853A3E /* Products */,
+				A08BBC77A3F271513D02560F /* Pods */,
+				4145BD9C8B5874E4A31B1C41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,7 +235,6 @@
 		7FFDC5501DB9B74100853A3E /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				7FFDC5A51DBA4A4000853A3E /* AFNetworking */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -272,7 +256,6 @@
 		7FFDC5531DB9B74100853A3E /* SQLiteHelper */ = {
 			isa = PBXGroup;
 			children = (
-				7FFDC55E1DB9B84800853A3E /* fmdb */,
 			);
 			path = SQLiteHelper;
 			sourceTree = "<group>";
@@ -305,24 +288,6 @@
 			path = KeyboardManager;
 			sourceTree = "<group>";
 		};
-		7FFDC55E1DB9B84800853A3E /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				7FFDC55F1DB9B84800853A3E /* FMDatabase.h */,
-				7FFDC5601DB9B84800853A3E /* FMDatabase.m */,
-				7FFDC5611DB9B84800853A3E /* FMDatabaseAdditions.h */,
-				7FFDC5621DB9B84800853A3E /* FMDatabaseAdditions.m */,
-				7FFDC5631DB9B84800853A3E /* FMDatabasePool.h */,
-				7FFDC5641DB9B84800853A3E /* FMDatabasePool.m */,
-				7FFDC5651DB9B84800853A3E /* FMDatabaseQueue.h */,
-				7FFDC5661DB9B84800853A3E /* FMDatabaseQueue.m */,
-				7FFDC5671DB9B84800853A3E /* FMDB.h */,
-				7FFDC5681DB9B84800853A3E /* FMResultSet.h */,
-				7FFDC5691DB9B84800853A3E /* FMResultSet.m */,
-			);
-			path = fmdb;
-			sourceTree = "<group>";
-		};
 		7FFDC57F1DBA350A00853A3E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,24 +295,13 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
-		7FFDC5A51DBA4A4000853A3E /* AFNetworking */ = {
+		A08BBC77A3F271513D02560F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7FFDC5A61DBA4A4000853A3E /* AFHTTPSessionManager.h */,
-				7FFDC5A71DBA4A4000853A3E /* AFHTTPSessionManager.m */,
-				7FFDC5A81DBA4A4000853A3E /* AFNetworking.h */,
-				7FFDC5A91DBA4A4000853A3E /* AFNetworkReachabilityManager.h */,
-				7FFDC5AA1DBA4A4000853A3E /* AFNetworkReachabilityManager.m */,
-				7FFDC5AB1DBA4A4000853A3E /* AFSecurityPolicy.h */,
-				7FFDC5AC1DBA4A4000853A3E /* AFSecurityPolicy.m */,
-				7FFDC5AD1DBA4A4000853A3E /* AFURLRequestSerialization.h */,
-				7FFDC5AE1DBA4A4000853A3E /* AFURLRequestSerialization.m */,
-				7FFDC5AF1DBA4A4000853A3E /* AFURLResponseSerialization.h */,
-				7FFDC5B01DBA4A4000853A3E /* AFURLResponseSerialization.m */,
-				7FFDC5B11DBA4A4000853A3E /* AFURLSessionManager.h */,
-				7FFDC5B21DBA4A4000853A3E /* AFURLSessionManager.m */,
+				7D34FCB2D1DDC7C255A23554 /* Pods-KNHelp.debug.xcconfig */,
+				B39F98984891B44CA43CFFAF /* Pods-KNHelp.release.xcconfig */,
 			);
-			path = AFNetworking;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FFDC53D1DB9B4DB00853A3E /* Build configuration list for PBXNativeTarget "KNHelp" */;
 			buildPhases = (
+				179FA4DF2E2FCA99138F2714 /* [CP] Check Pods Manifest.lock */,
 				7FFDC5301DB9B4DB00853A3E /* Sources */,
 				7FFDC5311DB9B4DB00853A3E /* Frameworks */,
 				7FFDC5321DB9B4DB00853A3E /* CopyFiles */,
+				631D56F5F5EF4B618171C00A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -402,22 +358,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		179FA4DF2E2FCA99138F2714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		631D56F5F5EF4B618171C00A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNHelp/Pods-KNHelp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FFDC5301DB9B4DB00853A3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FFDC5B81DBA4A4000853A3E /* AFURLSessionManager.m in Sources */,
-				7FFDC5B51DBA4A4000853A3E /* AFSecurityPolicy.m in Sources */,
 				7FFDC5BE1DBA5B2800853A3E /* UIColor+KN.m in Sources */,
 				7FFDC55B1DB9B74100853A3E /* HZYIndicatorView.m in Sources */,
 				7FFDC5CE1DBA6B4700853A3E /* NSString+KN.m in Sources */,
-				7FFDC5B41DBA4A4000853A3E /* AFNetworkReachabilityManager.m in Sources */,
 				7FFDC5BB1DBA5ACF00853A3E /* KNBaseViewController.m in Sources */,
 				7F3D05501DBDBEDC00A637DB /* KNFileHander.m in Sources */,
 				7FFDC57C1DBA03AC00853A3E /* KNSystemPath.m in Sources */,
 				7FFDC5751DB9FA2D00853A3E /* BaseFile.mm in Sources */,
-				7FFDC5B31DBA4A4000853A3E /* AFHTTPSessionManager.m in Sources */,
 				7FFDC5CA1DBA691800853A3E /* KNLoginInfoManager.m in Sources */,
 				7FFDC56C1DB9B8C400853A3E /* GKTextView.m in Sources */,
 				7FFDC5C11DBA5B6400853A3E /* KNAppColor.m in Sources */,
@@ -428,9 +413,7 @@
 				7FFDC5721DB9BA2C00853A3E /* KNExceptionViewController.m in Sources */,
 				7FFDC5591DB9B74100853A3E /* KNFlowView.m in Sources */,
 				7FFDC55A1DB9B74100853A3E /* KNGIFImageView.m in Sources */,
-				7FFDC5B61DBA4A4000853A3E /* AFURLRequestSerialization.m in Sources */,
 				7FFDC56F1DB9B90600853A3E /* KNException.m in Sources */,
-				7FFDC5B71DBA4A4000853A3E /* AFURLResponseSerialization.m in Sources */,
 				7FFDC55D1DB9B74100853A3E /* BMKeyboardManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +464,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -521,6 +505,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -528,8 +513,9 @@
 		};
 		7FFDC53E1DB9B4DB00853A3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D34FCB2D1DDC7C255A23554 /* Pods-KNHelp.debug.xcconfig */;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -537,8 +523,9 @@
 		};
 		7FFDC53F1DB9B4DB00853A3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F98984891B44CA43CFFAF /* Pods-KNHelp.release.xcconfig */;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

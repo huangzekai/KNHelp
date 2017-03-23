@@ -9,7 +9,7 @@
 #import "KNSystemPath.h"
 #import <sys/xattr.h>
 #import "BaseFile.h"
-#import "Utility.h"
+//#import "Utility.h"
 
 
 #define BM_CACHE_DIR_NAME @"BemetoyPrivate"
@@ -23,7 +23,7 @@
 #define PATHUTILITY_SYNCHRONIZED_NAME @"PathUtilityMain"
 
 @implementation KNSystemPath
-
+/*
 static NSString* g_libraryCachePath = nil;
 
 +(NSString*) GetLibraryCachePath
@@ -196,6 +196,6 @@ static NSString *g_docFixRootPath = nil;
     
     int result = setxattr(filePath, attrName, &attrValue, sizeof(attrValue), 0, 0);
     return result == 0;
-}
+}*/
 
 @end

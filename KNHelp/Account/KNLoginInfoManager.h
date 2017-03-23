@@ -40,5 +40,5 @@
 @end
 
 //继承类必须实现接口
-@interface KNLoginInfoManager(KN) <KNLoginInfoDelegate>
+@interface KNLoginInfoManager(KN)// <KNLoginInfoDelegate>
 @end
