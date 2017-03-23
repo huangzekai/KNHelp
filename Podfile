@@ -7,4 +7,6 @@ pod 'FMDB'
 pod 'SDWebImage', '~>3.8'
 pod 'JSONModel'
 pod 'CocoaLumberjack'
+pod 'JKCategories'
+pod 'MJRefresh'
 end

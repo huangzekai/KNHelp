@@ -19,7 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JKCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +47,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1A9298B32F31A61F3742650B19EE27BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>35B0F449C877062136AD698A286513BD</key>
+		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
+		<key>56D9C0C2BC7887681C4A0B73BA547511</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F5737F39B5E2D75EDDCE4501E9027C5D</key>
+		<key>B7A0A6CCE54E7227E401460716FBB2C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BFC104EA05596275561DC3F086C247AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
