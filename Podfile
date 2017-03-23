@@ -10,4 +10,6 @@ pod 'CocoaLumberjack'
 pod 'JKCategories'
 pod 'MJRefresh'
 pod 'LCTabBarController'
+pod 'SVProgressHUD'
+pod 'YTKKeyValueStore'
 end
