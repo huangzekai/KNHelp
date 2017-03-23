@@ -14,6 +14,12 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.1.0):
+    - CocoaLumberjack/Default (= 3.1.0)
+    - CocoaLumberjack/Extensions (= 3.1.0)
+  - CocoaLumberjack/Default (3.1.0)
+  - CocoaLumberjack/Extensions (3.1.0):
+    - CocoaLumberjack/Default
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
@@ -24,16 +30,18 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - CocoaLumberjack
   - FMDB
   - JSONModel
   - SDWebImage (~> 3.8)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 9e5c0d7f321a32a19716a8ca6a91d1a613029c6e
+PODFILE CHECKSUM: ffef433f15ff01f2670c65e7c0b423078993d6d5
 
 COCOAPODS: 1.2.0

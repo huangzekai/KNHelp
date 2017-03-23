@@ -12,7 +12,7 @@
 //#import "Utility.h"
 
 
-#define BM_CACHE_DIR_NAME @"BemetoyPrivate"
+#define BM_CACHE_DIR_NAME @"KNPrivate"
 #define BM_CACHE_VERSION_DIR_NAME @"1.2"
 
 #define BM_DOCUMENT_DIR_NAME @"Bemetoy"
