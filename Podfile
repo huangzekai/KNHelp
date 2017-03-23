@@ -9,4 +9,5 @@ pod 'JSONModel'
 pod 'CocoaLumberjack'
 pod 'JKCategories'
 pod 'MJRefresh'
+pod 'LCTabBarController'
 end

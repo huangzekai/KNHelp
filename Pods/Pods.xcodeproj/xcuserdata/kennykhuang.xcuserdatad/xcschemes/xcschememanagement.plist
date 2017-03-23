@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LCTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,12 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56D9C0C2BC7887681C4A0B73BA547511</key>
+		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<key>917A154E9869E50A6FB9BF4C6102EA24</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7A0A6CCE54E7227E401460716FBB2C1</key>
+		<key>BFC104EA05596275561DC3F086C247AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFC104EA05596275561DC3F086C247AD</key>
+		<key>C2001138EC708BE8901C8DC03D3CDCA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8F5FEE56E584F72E91F0F975F830126</key>
 		<dict>
 			<key>primary</key>
 			<true/>
