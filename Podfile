@@ -12,4 +12,5 @@ pod 'MJRefresh'
 pod 'LCTabBarController'
 pod 'SVProgressHUD'
 pod 'YTKKeyValueStore'
+pod 'IQKeyboardManager'
 end
