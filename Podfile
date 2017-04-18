@@ -13,4 +13,7 @@ pod 'LCTabBarController'
 pod 'SVProgressHUD'
 pod 'YTKKeyValueStore'
 pod 'IQKeyboardManager'
+pod 'XHTextField'
+pod 'NetworkEye', '~> 1.0.6'
+pod 'DZNEmptyDataSet'
 end
