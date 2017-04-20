@@ -7,7 +7,16 @@
 //
 
 #import "KNBaseViewController.h"
-#import "KNAppColor.h"
+
+/*基类做以下事情：
+ *  1.统一背景颜色
+ *  2.网络状态监控
+ *  3.
+ *
+ *
+ *
+ *
+ */
 
 @interface KNBaseViewController ()
 
@@ -20,108 +29,105 @@
     
     self.view.backgroundColor = [KNAppColor viewControllerBackgroundColor];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(networkChangedNotification:)
+                                                 name:kRealReachabilityChangedNotification
+                                               object:nil];
+    
 }
 
--(void)setLeftBarButtonItemWithButton:(UIButton*)button
+- (void)viewWillAppear:(BOOL)animated
 {
-    UIBarButtonItem* item = [[UIBarButtonItem alloc] initWithCustomView:button];
-    self.navigationItem.leftBarButtonItem = item;
+    [super viewWillAppear:animated];
 }
 
--(void)setRightBarButtonItemWithButton:(UIButton*)button;
+- (void)viewDidAppear:(BOOL)animated
 {
-    UIBarButtonItem* item = [[UIBarButtonItem alloc] initWithCustomView:button];
-    self.navigationItem.rightBarButtonItem = item;
+    [super viewDidAppear:animated];
 }
 
--(void)setLeftBarButtonItemWithTitle:(NSString *)title target:(id)target action:(SEL)action
+#pragma mark - 公有方法
+
+- (ReachabilityStatus)currentNetworkStatus
 {
-    CGFloat width = [title sizeWithFont:[UIFont systemFontOfSize:13.0] constrainedToSize:CGSizeMake(MAXFLOAT,27) lineBreakMode:UILineBreakModeWordWrap].width+7;
-    width = width<42.0?42:width;
+    ReachabilityStatus status = [GLobalRealReachability currentReachabilityStatus];
     
-    UIImage* normalBg = [UIImage imageNamed:@"banner_btn_normal.png"];
-    normalBg = [normalBg stretchableImageWithLeftCapWidth:7 topCapHeight:0];
-    UIImage* highlightBg = [UIImage imageNamed:@"banner_btn_hightlighted.png"];
-    highlightBg = [highlightBg stretchableImageWithLeftCapWidth:7 topCapHeight:0];
-    
-    UIButton* left = [[UIButton alloc] initWithFrame:CGRectMake(0,0,width,27)];
-    [left setBackgroundImage:normalBg forState:UIControlStateNormal];
-    [left setBackgroundImage:highlightBg forState:UIControlStateHighlighted];
-    [left setTitle:title forState:UIControlStateNormal];
-    left.titleLabel.font = [UIFont boldSystemFontOfSize:13.0];
-    [left addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    
-    [self setLeftBarButtonItemWithButton:left];
+    return status;
 }
 
--(void)setRightBarButtonItemWithTitle:(NSString *)title target:(id)target action:(SEL)action
+- (BOOL)isReachability
 {
-    CGFloat width = [title sizeWithFont:[UIFont systemFontOfSize:13.0] constrainedToSize:CGSizeMake(MAXFLOAT,27) lineBreakMode:UILineBreakModeWordWrap].width+7;
-    width = width<42.0?42:width;
+    ReachabilityStatus status = [GLobalRealReachability currentReachabilityStatus];
     
-    UIImage* normalBg = [UIImage imageNamed:@"banner_btn_normal.png"];
-    normalBg = [normalBg stretchableImageWithLeftCapWidth:7 topCapHeight:0];
-    UIImage* highlightBg = [UIImage imageNamed:@"banner_btn_hightlighted.png"];
-    highlightBg = [highlightBg stretchableImageWithLeftCapWidth:7 topCapHeight:0];
-    
-    UIButton* right = [[UIButton alloc] initWithFrame:CGRectMake(0,0,width,27)];
-    [right setBackgroundImage:normalBg forState:UIControlStateNormal];
-    [right setBackgroundImage:highlightBg forState:UIControlStateHighlighted];
-    [right setTitle:title forState:UIControlStateNormal];
-    right.titleLabel.font = [UIFont boldSystemFontOfSize:13.0];
-    [right addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    
-    [self setRightBarButtonItemWithButton:right];
+    return (status != RealStatusNotReachable);
 }
 
--(void)setLeftIconButtonWithImage:(UIImage*)image highlightImage:(UIImage*)highlightImage target:(id)target action:(SEL)action;
-{
-    UIButton* back_button = [[UIButton alloc] initWithFrame:CGRectMake(0,0,42,27)];
-    [back_button setImage:image forState:UIControlStateNormal];
-    [back_button setImage:highlightImage forState:UIControlStateHighlighted];
-    [back_button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    back_button.showsTouchWhenHighlighted = YES;
-    back_button.contentMode = UIViewContentModeCenter;
-    
-    [self setLeftBarButtonItemWithButton:back_button];
-}
+#pragma mark - 网络变化监控
 
--(void)setRightIconButtonWithImage:(UIImage*)image highlightImage:(UIImage*)highlightImage target:(id)target action:(SEL)action;
+- (void)networkChangedNotification:(NSNotification *)notification
 {
-    UIButton* back_button = [[UIButton alloc] initWithFrame:CGRectMake(0,0,42,27)];
-    [back_button setImage:image forState:UIControlStateNormal];
-    [back_button setImage:highlightImage forState:UIControlStateHighlighted];
-    [back_button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    back_button.showsTouchWhenHighlighted = YES;
-    back_button.contentMode = UIViewContentModeCenter;
+    RealReachability *reachability = (RealReachability *)notification.object;
+    ReachabilityStatus status = [reachability currentReachabilityStatus];
+    ReachabilityStatus previousStatus = [reachability previousReachabilityStatus];
+    DDLogInfo(@"networkChanged, currentStatus:%@, previousStatus:%@", @(status), @(previousStatus));
     
-    [self setRightBarButtonItemWithButton:back_button];
-}
-
--(void)setBackBarButton
-{
-    UIButton* back_button = [[UIButton alloc] initWithFrame:CGRectMake(0,0,42,27)];
-    [back_button setImage:[UIImage imageNamed:@"header_back.png"] forState:UIControlStateNormal];
-    [back_button setImage:[UIImage imageNamed:@"header_back.png"] forState:UIControlStateHighlighted];
-    [back_button addTarget:self.navigationController action:@selector(popViewControllerAnimated:) forControlEvents:UIControlEventTouchUpInside];
-    back_button.showsTouchWhenHighlighted = YES;
-    back_button.contentMode = UIViewContentModeCenter;
-    
-    [self setLeftBarButtonItemWithButton:back_button];
-}
-
-#pragma mark - Dialog Function
--(void)showAlertInView:(UIView*)view title:(NSString*)title
-{
-//    [self.dialog showInView:view title:title style:DYDialogStyleBoxWarning];
-}
--(void)showOkInView:(UIView*)view title:(NSString*)title
-{
-//    [self.dialog showInView:view title:title style:DYDialogStyleBoxOK];
-}
--(void)showLoadingInView:(UIView*)view title:(NSString*)title
-{
-//    [self.dialog showInView:view title:title style:DYDialogStyleLoading];
+//    if (status == RealStatusNotReachable)
+//    {
+//        NSLog(@"Network unreachable!");
+//        self.netType = NoNetWork;
+//        [self.view bringSubviewToFront:self.netAlertView];
+//        [UIView animateWithDuration:0.5f animations:^{
+//            self.netAlertView.hidden = NO;
+//        }];
+//        //显示无网提示信息
+//        [self showNetError];
+//    }
+//    
+//    if (status == RealStatusViaWiFi)
+//    {
+//        NSLog(@"Network wifi! Free!");
+//        self.netType = WiFi;
+//        self.netAlertView.hidden = YES;
+//        [self hideNetError];
+//    }
+//    
+//    if (status == RealStatusViaWWAN)
+//    {
+//        NSLog(@"Network WWAN! In charge!");
+//        self.netAlertView.hidden = YES;
+//        [self hideNetError];
+//    }
+//    
+//    WWANAccessType accessType = [GLobalRealReachability currentWWANtype];
+//    
+//    if (status == RealStatusViaWWAN)
+//    {
+//        if (accessType == WWANType2G)
+//        {
+//            NSLog(@"RealReachabilityStatus2G");
+//            self.netType = WWAN2G;
+//            self.netAlertView.hidden = YES;
+//            [self hideNetError];
+//        }
+//        else if (accessType == WWANType3G)
+//        {
+//            NSLog(@"RealReachabilityStatus3G");
+//            self.netType = WWAN3G;
+//            self.netAlertView.hidden = YES;
+//            [self hideNetError];
+//        }
+//        else if (accessType == WWANType4G)
+//        {
+//            NSLog(@"RealReachabilityStatus4G");
+//            self.netType = WWAN4G;
+//            self.netAlertView.hidden = YES;
+//            [self hideNetError];
+//        }
+//        else
+//        {
+//            NSLog(@"Unknown RealReachability WWAN Status, might be iOS6");
+//        }
+//    }
 }
 
 @end

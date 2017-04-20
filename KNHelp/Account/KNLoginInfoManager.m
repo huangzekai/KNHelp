@@ -23,10 +23,10 @@
         if(data.length > 0){
             //解密
             data = [self encrypt:data.bytes length:data.length];
-            
+
             NSString *error;
             NSPropertyListFormat format;
-            
+
             self.dataSource = [NSPropertyListSerialization propertyListFromData:data
                                                                mutabilityOption:NSPropertyListImmutable
                                                                          format:&format
@@ -57,9 +57,9 @@
     self.dataSource = nil;
     //删除文件
     NSFileManager *manage = [NSFileManager defaultManager];
-    
+
     NSString *file = kLoginInfoFile;
-    
+
     //判断是否存在文件
     if([manage fileExistsAtPath:file]){
         //删除文件
@@ -83,7 +83,7 @@
         if(data){
             //加密登录信息
             [[self encrypt:data.bytes length:data.length]writeToFile:kLoginInfoFile atomically:YES];
-            
+
             if([[NSFileManager defaultManager] fileExistsAtPath:kLoginInfoFile]){
                 //登录信息,避免被备份到icloud中
                 u_int8_t b = 1;
@@ -93,4 +93,3 @@
     }
 }*/
 @end
-

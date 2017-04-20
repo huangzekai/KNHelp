@@ -2,12 +2,17 @@
 //  KNHelp.h
 //  KNHelp
 //
-//  Created by kennyhuang on 2016/10/21.
-//  Copyright © 2016年 KennyHuang. All rights reserved.
+//  Created by kennykhuang on 2017/4/20.
+//  Copyright © 2017年 KennyHuang. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef KNHelp_h
+#define KNHelp_h
 
-@interface KNHelp : NSObject
+#import<CocoaLumberjack/CocoaLumberjack.h>
+#import "RealReachability.h"
+#import "KNAppColor.h"
 
-@end
+#import "KNGlobalDefine.h"
+
+#endif /* KNHelp_h */

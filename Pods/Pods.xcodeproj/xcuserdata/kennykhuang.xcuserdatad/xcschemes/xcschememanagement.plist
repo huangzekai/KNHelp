@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -59,6 +64,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RealReachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -82,12 +92,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>005A6345A3811AD03491E353A28BA407</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
+		<key>1105620CFB0BDED3963988358B533737</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,7 +107,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4585C9E61AA36FFD7EAEC52C1A8AA462</key>
+		<key>23D7DA26C40DEA0CBB49A7825C7CD4F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,17 +122,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5E7425342EAA1CF6EEA1050F9E394FC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6A77B1106093C16443A9174BA7D7135D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>80667C553D813328C202A7167195B379</key>
+		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<key>8D2D5391BC874D6CF60C0C056FCDD9EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -137,12 +152,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9AA87BFCF7A874832B54D0C9F5F2D980</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<key>A06A722EE06B8665B7B29EDB8991BB41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBE75C095B40D18A42B366AF4C583377</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,7 +172,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB261FBE304F4758D01AB17CD132DE94</key>
+		<key>F064B00031F3ED545377E0208928EC2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

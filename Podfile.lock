@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.0)
   - CocoaLumberjack (3.1.0):
     - CocoaLumberjack/Default (= 3.1.0)
     - CocoaLumberjack/Extensions (= 3.1.0)
@@ -32,6 +33,11 @@ PODS:
   - NetworkEye (1.0.6):
     - NetworkEye/standard (= 1.0.6)
   - NetworkEye/standard (1.0.6)
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -42,6 +48,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - CocoaAsyncSocket
   - CocoaLumberjack
   - DZNEmptyDataSet
   - FMDB
@@ -51,6 +58,7 @@ DEPENDENCIES:
   - LCTabBarController
   - MJRefresh
   - NetworkEye (~> 1.0.6)
+  - RealReachability
   - SDWebImage (~> 3.8)
   - SVProgressHUD
   - XHTextField
@@ -58,6 +66,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
@@ -67,11 +76,12 @@ SPEC CHECKSUMS:
   LCTabBarController: 9175d6073b60f4c40e948a0245be8b7e3afe566e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   NetworkEye: 54afcde161ab50e407445b86abd7350f3cd08533
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   XHTextField: 67abde300d82c46940215dd939f96acda90f4e05
   YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
 
-PODFILE CHECKSUM: b0b87c1498d91cf72b778fee971039debe900991
+PODFILE CHECKSUM: b8f347d2c7fb5e668b5437f57a69971506377d06
 
 COCOAPODS: 1.2.0
