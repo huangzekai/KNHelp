@@ -9,10 +9,37 @@
 #ifndef KNHelp_h
 #define KNHelp_h
 
-#import<CocoaLumberjack/CocoaLumberjack.h>
+#pragma mark - 网络
+
 #import "RealReachability.h"
-#import "KNAppColor.h"
+
+
+#pragma mark - 日志
+
+#import<CocoaLumberjack/CocoaLumberjack.h>
+
+#import "NSMutableObject+SafeInsert.h"
 
 #import "KNGlobalDefine.h"
+#import "KNGlobalConfig.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#pragma mark - COLOR
+
+#import "KNAppColor.h"
+#import "UIColor+KN.h"
+
+#pragma mark - UI
+
+#import "KNFlowView.h"
+#import "KNGIFImageView.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import "LCTabBarController.h"
+#import "ZFBaseSettingViewController.h"
+
+
+#pragma mark - FILE
+
+#import "BaseFile.h"
 
 #endif /* KNHelp_h */

@@ -11,8 +11,13 @@
 
 @interface KNBaseViewController : UIViewController
 
-///网络状态变化
+#pragma mark - 通知
+
 - (void)networkChangedNotification:(NSNotification *)notification;
+
+- (void)applicationEnterbackground:(NSNotification *)notification;
+
+- (void)applicationDidBecomeActive:(NSNotification *)notification;
 
 - (ReachabilityStatus)currentNetworkStatus;
 

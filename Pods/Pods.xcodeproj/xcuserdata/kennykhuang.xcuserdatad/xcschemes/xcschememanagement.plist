@@ -89,15 +89,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ZFSetting.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
+		<key>043B36C3ECB3911B8634C28220478DBF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1105620CFB0BDED3963988358B533737</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,6 +117,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>389430C10C186BCAB528A53EB094A153</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48FA99F36FEA7CE59840B69F52B04497</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5437890023F30CA85DFCA260CA914D48</key>
 		<dict>
 			<key>primary</key>
@@ -122,7 +137,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5E7425342EAA1CF6EEA1050F9E394FC4</key>
+		<key>563AACB97AAA8333F51729369B5708CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>56ED35979D19FDD96F9DC82586ABBD87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -133,11 +153,6 @@
 			<true/>
 		</dict>
 		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8D2D5391BC874D6CF60C0C056FCDD9EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -157,22 +172,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A06A722EE06B8665B7B29EDB8991BB41</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BBE75C095B40D18A42B366AF4C583377</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>BFC104EA05596275561DC3F086C247AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F064B00031F3ED545377E0208928EC2D</key>
+		<key>CAFA2DD3FB8FBEAADC60D0023E6577C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC8503CF3C77422A26A6DA11C2D5D9AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

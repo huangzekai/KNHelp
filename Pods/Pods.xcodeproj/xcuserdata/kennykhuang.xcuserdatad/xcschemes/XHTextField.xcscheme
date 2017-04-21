@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5E7425342EAA1CF6EEA1050F9E394FC4'
+               BlueprintIdentifier = 'EC8503CF3C77422A26A6DA11C2D5D9AE'
                BlueprintName = 'XHTextField'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libXHTextField.a'>

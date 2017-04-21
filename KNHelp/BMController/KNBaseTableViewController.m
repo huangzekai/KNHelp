@@ -7,9 +7,9 @@
 //
 
 #import "KNBaseTableViewController.h"
-#import "KNAppColor.h"
+#import "KNHelp.h"
 
-@interface KNBaseTableViewController ()
+@interface KNBaseTableViewController ()<DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>
 @property (nonatomic, assign) UITableViewStyle style;
 @end
 

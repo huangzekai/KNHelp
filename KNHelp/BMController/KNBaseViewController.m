@@ -29,11 +29,10 @@
     
     self.view.backgroundColor = [KNAppColor viewControllerBackgroundColor];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(networkChangedNotification:)
-                                                 name:kRealReachabilityChangedNotification
-                                               object:nil];
-    
+    NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
+    [defaultCenter addObserver:self selector:@selector(networkChangedNotification:) name:kRealReachabilityChangedNotification object:nil];
+    [defaultCenter addObserver:self selector:@selector(applicationEnterbackground:) name:UIApplicationDidEnterBackgroundNotification object:nil];
+    [defaultCenter addObserver:self selector:@selector(applicationDidBecomeActive:) name:UIApplicationDidEnterBackgroundNotification object:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -44,6 +43,11 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+}
+
+- (void)dealloc
+{
+    
 }
 
 #pragma mark - 公有方法
@@ -62,6 +66,16 @@
     return (status != RealStatusNotReachable);
 }
 
+- (void)applicationEnterbackground:(NSNotification *)notification
+{
+    DDLogInfo(@"\n----------Application did enter background----------\n");
+}
+
+- (void)applicationDidBecomeActive:(NSNotification *)notification
+{
+    DDLogInfo(@"\n----------Application did become active----------\n");
+}
+
 #pragma mark - 网络变化监控
 
 - (void)networkChangedNotification:(NSNotification *)notification
@@ -70,64 +84,6 @@
     ReachabilityStatus status = [reachability currentReachabilityStatus];
     ReachabilityStatus previousStatus = [reachability previousReachabilityStatus];
     DDLogInfo(@"networkChanged, currentStatus:%@, previousStatus:%@", @(status), @(previousStatus));
-    
-//    if (status == RealStatusNotReachable)
-//    {
-//        NSLog(@"Network unreachable!");
-//        self.netType = NoNetWork;
-//        [self.view bringSubviewToFront:self.netAlertView];
-//        [UIView animateWithDuration:0.5f animations:^{
-//            self.netAlertView.hidden = NO;
-//        }];
-//        //显示无网提示信息
-//        [self showNetError];
-//    }
-//    
-//    if (status == RealStatusViaWiFi)
-//    {
-//        NSLog(@"Network wifi! Free!");
-//        self.netType = WiFi;
-//        self.netAlertView.hidden = YES;
-//        [self hideNetError];
-//    }
-//    
-//    if (status == RealStatusViaWWAN)
-//    {
-//        NSLog(@"Network WWAN! In charge!");
-//        self.netAlertView.hidden = YES;
-//        [self hideNetError];
-//    }
-//    
-//    WWANAccessType accessType = [GLobalRealReachability currentWWANtype];
-//    
-//    if (status == RealStatusViaWWAN)
-//    {
-//        if (accessType == WWANType2G)
-//        {
-//            NSLog(@"RealReachabilityStatus2G");
-//            self.netType = WWAN2G;
-//            self.netAlertView.hidden = YES;
-//            [self hideNetError];
-//        }
-//        else if (accessType == WWANType3G)
-//        {
-//            NSLog(@"RealReachabilityStatus3G");
-//            self.netType = WWAN3G;
-//            self.netAlertView.hidden = YES;
-//            [self hideNetError];
-//        }
-//        else if (accessType == WWANType4G)
-//        {
-//            NSLog(@"RealReachabilityStatus4G");
-//            self.netType = WWAN4G;
-//            self.netAlertView.hidden = YES;
-//            [self hideNetError];
-//        }
-//        else
-//        {
-//            NSLog(@"Unknown RealReachability WWAN Status, might be iOS6");
-//        }
-//    }
 }
 
 @end

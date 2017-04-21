@@ -19,4 +19,5 @@ pod 'DZNEmptyDataSet'
 pod 'CocoaAsyncSocket'
 pod 'RealReachability'
 pod 'DZNEmptyDataSet'
+pod 'ZFSetting'
 end

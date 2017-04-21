@@ -95,7 +95,7 @@
 {
     CGRect rect = [UIScreen mainScreen].bounds;
     self.window = [[UIWindow alloc]initWithFrame:rect];
-    self.window.backgroundColor = [UIColor blackColor];
+    self.window.backgroundColor = [UIColor whiteColor];
     
     [self.window makeKeyAndVisible];
     
