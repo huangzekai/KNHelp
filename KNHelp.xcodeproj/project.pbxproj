@@ -27,6 +27,13 @@
 		7FFDC5C71DBA685400853A3E /* KNAppMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5C61DBA685400853A3E /* KNAppMain.m */; };
 		7FFDC5CA1DBA691800853A3E /* KNLoginInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5C91DBA691800853A3E /* KNLoginInfoManager.m */; };
 		7FFDC5CE1DBA6B4700853A3E /* NSString+KN.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFDC5CD1DBA6B4700853A3E /* NSString+KN.m */; };
+		9C2C73771EC2C0AB00BBC5F2 /* KNDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C73761EC2C0AB00BBC5F2 /* KNDebugViewController.m */; };
+		9C2C737A1EC2ECA000BBC5F2 /* KNEnvChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C73791EC2ECA000BBC5F2 /* KNEnvChangeViewController.m */; };
+		9C2C737D1EC2ECC400BBC5F2 /* KNBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C737C1EC2ECC400BBC5F2 /* KNBaseWebViewController.m */; };
+		9C2C73801EC2ECE200BBC5F2 /* KNUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C737F1EC2ECE200BBC5F2 /* KNUserInfoViewController.m */; };
+		9C2C73831EC2EF3C00BBC5F2 /* KNRMCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C73821EC2EF3C00BBC5F2 /* KNRMCacheViewController.m */; };
+		9C2C73861EC2EF9000BBC5F2 /* KNDebugLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C73851EC2EF9000BBC5F2 /* KNDebugLogViewController.m */; };
+		9C2C738D1EC2F43700BBC5F2 /* KNAPNSPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C738C1EC2F43700BBC5F2 /* KNAPNSPushManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +92,20 @@
 		7FFDC5C91DBA691800853A3E /* KNLoginInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLoginInfoManager.m; sourceTree = "<group>"; };
 		7FFDC5CC1DBA6B4700853A3E /* NSString+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KN.h"; sourceTree = "<group>"; };
 		7FFDC5CD1DBA6B4700853A3E /* NSString+KN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KN.m"; sourceTree = "<group>"; };
+		9C2C73751EC2C0AB00BBC5F2 /* KNDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNDebugViewController.h; sourceTree = "<group>"; };
+		9C2C73761EC2C0AB00BBC5F2 /* KNDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNDebugViewController.m; sourceTree = "<group>"; };
+		9C2C73781EC2ECA000BBC5F2 /* KNEnvChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNEnvChangeViewController.h; sourceTree = "<group>"; };
+		9C2C73791EC2ECA000BBC5F2 /* KNEnvChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNEnvChangeViewController.m; sourceTree = "<group>"; };
+		9C2C737B1EC2ECC400BBC5F2 /* KNBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseWebViewController.h; sourceTree = "<group>"; };
+		9C2C737C1EC2ECC400BBC5F2 /* KNBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseWebViewController.m; sourceTree = "<group>"; };
+		9C2C737E1EC2ECE200BBC5F2 /* KNUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNUserInfoViewController.h; sourceTree = "<group>"; };
+		9C2C737F1EC2ECE200BBC5F2 /* KNUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNUserInfoViewController.m; sourceTree = "<group>"; };
+		9C2C73811EC2EF3C00BBC5F2 /* KNRMCacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNRMCacheViewController.h; sourceTree = "<group>"; };
+		9C2C73821EC2EF3C00BBC5F2 /* KNRMCacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNRMCacheViewController.m; sourceTree = "<group>"; };
+		9C2C73841EC2EF9000BBC5F2 /* KNDebugLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNDebugLogViewController.h; sourceTree = "<group>"; };
+		9C2C73851EC2EF9000BBC5F2 /* KNDebugLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNDebugLogViewController.m; sourceTree = "<group>"; };
+		9C2C738B1EC2F43700BBC5F2 /* KNAPNSPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAPNSPushManager.h; sourceTree = "<group>"; };
+		9C2C738C1EC2F43700BBC5F2 /* KNAPNSPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAPNSPushManager.m; sourceTree = "<group>"; };
 		B39F98984891B44CA43CFFAF /* Pods-KNHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNHelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNHelp/Pods-KNHelp.release.xcconfig"; sourceTree = "<group>"; };
 		C305FC1F6265B7162CD4C723 /* libPods-KNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,6 +151,8 @@
 		7FFDC5361DB9B4DB00853A3E /* KNHelp */ = {
 			isa = PBXGroup;
 			children = (
+				9C2C73871EC2F3F700BBC5F2 /* APNSPush */,
+				9C2C73741EC2C07400BBC5F2 /* Debug */,
 				7FFDC57F1DBA350A00853A3E /* Vendor */,
 				7FFDC5401DB9B74100853A3E /* Account */,
 				7FFDC5411DB9B74100853A3E /* Animation */,
@@ -180,6 +203,8 @@
 				7FFDC5C31DBA5C3900853A3E /* KNBaseTableViewController.m */,
 				7FFDC5C51DBA685400853A3E /* KNAppMain.h */,
 				7FFDC5C61DBA685400853A3E /* KNAppMain.m */,
+				9C2C737B1EC2ECC400BBC5F2 /* KNBaseWebViewController.h */,
+				9C2C737C1EC2ECC400BBC5F2 /* KNBaseWebViewController.m */,
 			);
 			name = Controller;
 			path = BMController;
@@ -297,6 +322,32 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
+		9C2C73741EC2C07400BBC5F2 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				9C2C73751EC2C0AB00BBC5F2 /* KNDebugViewController.h */,
+				9C2C73761EC2C0AB00BBC5F2 /* KNDebugViewController.m */,
+				9C2C73781EC2ECA000BBC5F2 /* KNEnvChangeViewController.h */,
+				9C2C73791EC2ECA000BBC5F2 /* KNEnvChangeViewController.m */,
+				9C2C737E1EC2ECE200BBC5F2 /* KNUserInfoViewController.h */,
+				9C2C737F1EC2ECE200BBC5F2 /* KNUserInfoViewController.m */,
+				9C2C73811EC2EF3C00BBC5F2 /* KNRMCacheViewController.h */,
+				9C2C73821EC2EF3C00BBC5F2 /* KNRMCacheViewController.m */,
+				9C2C73841EC2EF9000BBC5F2 /* KNDebugLogViewController.h */,
+				9C2C73851EC2EF9000BBC5F2 /* KNDebugLogViewController.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		9C2C73871EC2F3F700BBC5F2 /* APNSPush */ = {
+			isa = PBXGroup;
+			children = (
+				9C2C738B1EC2F43700BBC5F2 /* KNAPNSPushManager.h */,
+				9C2C738C1EC2F43700BBC5F2 /* KNAPNSPushManager.m */,
+			);
+			path = APNSPush;
+			sourceTree = "<group>";
+		};
 		A08BBC77A3F271513D02560F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,14 +454,21 @@
 				7FFDC55B1DB9B74100853A3E /* HZYIndicatorView.m in Sources */,
 				7FFDC5CE1DBA6B4700853A3E /* NSString+KN.m in Sources */,
 				7FFDC5BB1DBA5ACF00853A3E /* KNBaseViewController.m in Sources */,
+				9C2C73771EC2C0AB00BBC5F2 /* KNDebugViewController.m in Sources */,
+				9C2C737A1EC2ECA000BBC5F2 /* KNEnvChangeViewController.m in Sources */,
 				7F3D05501DBDBEDC00A637DB /* KNFileHander.m in Sources */,
+				9C2C738D1EC2F43700BBC5F2 /* KNAPNSPushManager.m in Sources */,
+				9C2C73801EC2ECE200BBC5F2 /* KNUserInfoViewController.m in Sources */,
+				9C2C73861EC2EF9000BBC5F2 /* KNDebugLogViewController.m in Sources */,
 				7FFDC57C1DBA03AC00853A3E /* KNSystemPath.m in Sources */,
 				7FFDC5751DB9FA2D00853A3E /* BaseFile.mm in Sources */,
 				7FFDC5CA1DBA691800853A3E /* KNLoginInfoManager.m in Sources */,
 				7FFDC56C1DB9B8C400853A3E /* GKTextView.m in Sources */,
 				7FFDC5C11DBA5B6400853A3E /* KNAppColor.m in Sources */,
 				7FFDC5781DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm in Sources */,
+				9C2C73831EC2EF3C00BBC5F2 /* KNRMCacheViewController.m in Sources */,
 				7FFDC5C71DBA685400853A3E /* KNAppMain.m in Sources */,
+				9C2C737D1EC2ECC400BBC5F2 /* KNBaseWebViewController.m in Sources */,
 				7FFDC5C41DBA5C3900853A3E /* KNBaseTableViewController.m in Sources */,
 				7FFDC5721DB9BA2C00853A3E /* KNExceptionViewController.m in Sources */,
 				7FFDC5591DB9B74100853A3E /* KNFlowView.m in Sources */,

@@ -45,6 +45,12 @@
     [super viewDidAppear:animated];
 }
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.view endEditing:YES];
+}
+
 - (void)dealloc
 {
     

@@ -8,6 +8,7 @@
 
 #import "KNGlobalConfig.h"
 #import<CocoaLumberjack/CocoaLumberjack.h>
+#import "KNException.h"
 
 @implementation KNGlobalConfig
 
@@ -17,6 +18,8 @@
     //打印到控制台，发送到苹果
     [DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    //异常捕捉
+    [KNException installUncaughtException];
 #else
     //只发送到苹果
     [DDLog addLogger:[DDASLLogger sharedInstance]];
