@@ -34,6 +34,11 @@
 		9C2C73831EC2EF3C00BBC5F2 /* KNRMCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C73821EC2EF3C00BBC5F2 /* KNRMCacheViewController.m */; };
 		9C2C73861EC2EF9000BBC5F2 /* KNDebugLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C73851EC2EF9000BBC5F2 /* KNDebugLogViewController.m */; };
 		9C2C738D1EC2F43700BBC5F2 /* KNAPNSPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C738C1EC2F43700BBC5F2 /* KNAPNSPushManager.m */; };
+		9C3E2FC91EC44AA500F47023 /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FC21EC44AA500F47023 /* UIButton+Common.m */; };
+		9C3E2FCA1EC44AA500F47023 /* UIImageView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FC41EC44AA500F47023 /* UIImageView+Common.m */; };
+		9C3E2FCB1EC44AA600F47023 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FC61EC44AA500F47023 /* UILabel+Common.m */; };
+		9C3E2FCC1EC44AA600F47023 /* UITableView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FC81EC44AA500F47023 /* UITableView+Common.m */; };
+		9C3E2FCF1EC44C9900F47023 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FCE1EC44C9900F47023 /* UIView+Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +111,16 @@
 		9C2C73851EC2EF9000BBC5F2 /* KNDebugLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNDebugLogViewController.m; sourceTree = "<group>"; };
 		9C2C738B1EC2F43700BBC5F2 /* KNAPNSPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAPNSPushManager.h; sourceTree = "<group>"; };
 		9C2C738C1EC2F43700BBC5F2 /* KNAPNSPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAPNSPushManager.m; sourceTree = "<group>"; };
+		9C3E2FC11EC44AA500F47023 /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
+		9C3E2FC21EC44AA500F47023 /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
+		9C3E2FC31EC44AA500F47023 /* UIImageView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Common.h"; sourceTree = "<group>"; };
+		9C3E2FC41EC44AA500F47023 /* UIImageView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Common.m"; sourceTree = "<group>"; };
+		9C3E2FC51EC44AA500F47023 /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		9C3E2FC61EC44AA500F47023 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		9C3E2FC71EC44AA500F47023 /* UITableView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Common.h"; sourceTree = "<group>"; };
+		9C3E2FC81EC44AA500F47023 /* UITableView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Common.m"; sourceTree = "<group>"; };
+		9C3E2FCD1EC44C9900F47023 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		9C3E2FCE1EC44C9900F47023 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		B39F98984891B44CA43CFFAF /* Pods-KNHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNHelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNHelp/Pods-KNHelp.release.xcconfig"; sourceTree = "<group>"; };
 		C305FC1F6265B7162CD4C723 /* libPods-KNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -225,6 +240,16 @@
 				7FFDC5471DB9B74100853A3E /* KNGIFImageView.m */,
 				7FFDC5481DB9B74100853A3E /* HZYIndicatorView.h */,
 				7FFDC5491DB9B74100853A3E /* HZYIndicatorView.m */,
+				9C3E2FC11EC44AA500F47023 /* UIButton+Common.h */,
+				9C3E2FC21EC44AA500F47023 /* UIButton+Common.m */,
+				9C3E2FC31EC44AA500F47023 /* UIImageView+Common.h */,
+				9C3E2FC41EC44AA500F47023 /* UIImageView+Common.m */,
+				9C3E2FC51EC44AA500F47023 /* UILabel+Common.h */,
+				9C3E2FC61EC44AA500F47023 /* UILabel+Common.m */,
+				9C3E2FC71EC44AA500F47023 /* UITableView+Common.h */,
+				9C3E2FC81EC44AA500F47023 /* UITableView+Common.m */,
+				9C3E2FCD1EC44C9900F47023 /* UIView+Common.h */,
+				9C3E2FCE1EC44C9900F47023 /* UIView+Common.m */,
 			);
 			name = UI;
 			path = BMUI;
@@ -449,11 +474,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3E2FCB1EC44AA600F47023 /* UILabel+Common.m in Sources */,
 				7FFDC5BE1DBA5B2800853A3E /* UIColor+KN.m in Sources */,
 				751014F41EA88ACA00AF95CB /* KNGlobalConfig.m in Sources */,
 				7FFDC55B1DB9B74100853A3E /* HZYIndicatorView.m in Sources */,
 				7FFDC5CE1DBA6B4700853A3E /* NSString+KN.m in Sources */,
 				7FFDC5BB1DBA5ACF00853A3E /* KNBaseViewController.m in Sources */,
+				9C3E2FC91EC44AA500F47023 /* UIButton+Common.m in Sources */,
 				9C2C73771EC2C0AB00BBC5F2 /* KNDebugViewController.m in Sources */,
 				9C2C737A1EC2ECA000BBC5F2 /* KNEnvChangeViewController.m in Sources */,
 				7F3D05501DBDBEDC00A637DB /* KNFileHander.m in Sources */,
@@ -461,12 +488,15 @@
 				9C2C73801EC2ECE200BBC5F2 /* KNUserInfoViewController.m in Sources */,
 				9C2C73861EC2EF9000BBC5F2 /* KNDebugLogViewController.m in Sources */,
 				7FFDC57C1DBA03AC00853A3E /* KNSystemPath.m in Sources */,
+				9C3E2FCC1EC44AA600F47023 /* UITableView+Common.m in Sources */,
 				7FFDC5751DB9FA2D00853A3E /* BaseFile.mm in Sources */,
 				7FFDC5CA1DBA691800853A3E /* KNLoginInfoManager.m in Sources */,
 				7FFDC56C1DB9B8C400853A3E /* GKTextView.m in Sources */,
 				7FFDC5C11DBA5B6400853A3E /* KNAppColor.m in Sources */,
 				7FFDC5781DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm in Sources */,
 				9C2C73831EC2EF3C00BBC5F2 /* KNRMCacheViewController.m in Sources */,
+				9C3E2FCF1EC44C9900F47023 /* UIView+Common.m in Sources */,
+				9C3E2FCA1EC44AA500F47023 /* UIImageView+Common.m in Sources */,
 				7FFDC5C71DBA685400853A3E /* KNAppMain.m in Sources */,
 				9C2C737D1EC2ECC400BBC5F2 /* KNBaseWebViewController.m in Sources */,
 				7FFDC5C41DBA5C3900853A3E /* KNBaseTableViewController.m in Sources */,
