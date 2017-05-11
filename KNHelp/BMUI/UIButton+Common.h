@@ -17,7 +17,9 @@ typedef NS_ENUM(NSInteger, KNImagePosition) {
 
 @interface UIButton (Common)
 
-+ (UIButton *)obtainButtonWithRadius:(CGFloat)radius title:(NSString *)title;
++ (UIButton *)createButtonWithTitle:(NSString *)title Target:(id)target action:(SEL)action;
+
++ (UIButton *)createButtonWithRadius:(CGFloat)radius title:(NSString *)title;
 
 /**
  *  利用UIButton的titleEdgeInsets和imageEdgeInsets来实现文字和图片的自由排列

@@ -29,4 +29,14 @@
     return imageView;
 }
 
++ (UIImageView *)createImageWithSingleTapAction:(SEL)action
+{
+    UIImageView *imageview = [UIImageView createImageView];
+    imageview.userInteractionEnabled = YES;
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:action];
+    [imageview addGestureRecognizer:singleTap];
+    
+    return imageview;
+}
+
 @end

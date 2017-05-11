@@ -10,7 +10,15 @@
 
 @implementation UIButton (Common)
 
-+ (UIButton *)obtainButtonWithRadius:(CGFloat)radius title:(NSString *)title
++ (UIButton *)createButtonWithTitle:(NSString *)title Target:(id)target action:(SEL)action
+{
+    UIButton *button = [[UIButton alloc]init];
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpOutside];
+    [button setTitle:title forState:UIControlStateNormal];
+    return button;
+}
+
++ (UIButton *)createButtonWithRadius:(CGFloat)radius title:(NSString *)title
 {
     UIButton *button = [[UIButton alloc]init];
     button.layer.cornerRadius = radius;

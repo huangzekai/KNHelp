@@ -10,16 +10,28 @@
 
 @interface UILabel (Common)
 
-///创建居左label
-+ (UILabel *)obtainLabelWithFont:(NSInteger)size;
+///创建label
++ (UILabel *)createLabelWithFont:(NSInteger)size;
++ (UILabel *)createLabelWithFont:(NSInteger)size textColor:(UIColor *)color;
++ (UILabel *)createLabelWithFont:(NSInteger)size text:(NSString *)text;
++ (UILabel *)createLabelWithFont:(NSInteger)size text:(NSString *)text textColor:(UIColor *)color;
 
 ///创建居中label
-+ (UILabel *)obtainAlignmentCenterLabelWithFont:(NSInteger)size;
++ (UILabel *)createAlignmentCenterLabelWithFont:(NSInteger)size;
++ (UILabel *)createAlignmentCenterLabelWithFont:(NSInteger)size textColor:(UIColor *)color;
++ (UILabel *)createAlignmentCenterLabelWithFont:(NSInteger)size text:(NSString *)text;
++ (UILabel *)createAlignmentCenterLabelWithFont:(NSInteger)size text:(NSString *)text textColor:(UIColor *)color;
 
 ///创建居右label
-+ (UILabel *)obtainAlignmentRightLabelWithFont:(NSInteger)size;
++ (UILabel *)createAlignmentRightLabelWithFont:(NSInteger)size;
++ (UILabel *)createAlignmentRightLabelWithFont:(NSInteger)size textColor:(UIColor *)color;
++ (UILabel *)createAlignmentRightLabelWithFont:(NSInteger)size text:(NSString *)text;
++ (UILabel *)createAlignmentRightLabelWithFont:(NSInteger)size text:(NSString *)text textColor:(UIColor *)color;
 
 ///创建居左label
-+ (UILabel *)obtainAlignmentLeftLabelWithFont:(NSInteger)size;
++ (UILabel *)createAlignmentLeftLabelWithFont:(NSInteger)size;
++ (UILabel *)createAlignmentLeftLabelWithFont:(NSInteger)size textColor:(UIColor *)color;
++ (UILabel *)createAlignmentLeftLabelWithFont:(NSInteger)size text:(NSString *)text;
++ (UILabel *)createAlignmentLeftLabelWithFont:(NSInteger)size text:(NSString *)text textColor:(UIColor *)color;
 
 @end
