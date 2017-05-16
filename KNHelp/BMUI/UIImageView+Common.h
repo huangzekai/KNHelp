@@ -13,6 +13,7 @@
 + (UIImageView *)createImageView;
 + (UIImageView *)createImageViewWithRadius:(CGFloat)radius;
 + (UIImageView *)createImageWithSingleTapAction:(SEL)action;
+- (void)addSingleTapAction:(SEL)action;
 
 
 @end

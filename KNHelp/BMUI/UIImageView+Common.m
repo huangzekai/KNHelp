@@ -39,4 +39,12 @@
     return imageview;
 }
 
+- (void)addSingleTapAction:(SEL)action
+{
+    self.userInteractionEnabled = YES;
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:action];
+    [self addGestureRecognizer:singleTap];
+}
+
+
 @end

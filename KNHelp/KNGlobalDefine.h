@@ -42,6 +42,11 @@ static const int ddLogLevel = DDLogLevelError;
 #define kDocumentDir [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
 #define kTempDir NSTemporaryDirectory()
 
+///////////////////////////////////////////////通知/////////////////////////////////////////////////////
+#define KNPostNotification(name, obj) [[NSNotificationCenter defaultCenter] postNotificationName:name object:obj]
+#define KNAddObserver(action, notifName) [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(action:) name:name object:nil]
+#define 
+
 
 //单例化一个类
 #define SYNTHESIZE_SINGLETON_FOR_CLASS(classname) \
