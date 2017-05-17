@@ -15,7 +15,7 @@
 #define BM_CACHE_DIR_NAME @"KNPrivate"
 #define BM_CACHE_VERSION_DIR_NAME @"1.2"
 
-#define BM_DOCUMENT_DIR_NAME @"Bemetoy"
+#define BM_DOCUMENT_DIR_NAME @"KENNY"
 #define BM_DOCUMENT_VERSION_DIR_NAME @"1.2"
 
 #define TRASH_ROOT_DIR @"trash"

@@ -2,8 +2,8 @@
 //  HZYIndicatorView.m
 //  test
 //
-//  Created by jacky on 16/7/22.
-//  Copyright © 2016年 com.bemetoy.Bemetoy. All rights reserved.
+//  Created by kennykhuang on 16/7/22.
+//  Copyright © 2016年 kennykhuang. All rights reserved.
 //
 
 #import "HZYIndicatorView.h"

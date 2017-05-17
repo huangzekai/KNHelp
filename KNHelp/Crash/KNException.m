@@ -171,7 +171,7 @@ void BMCacthExection(NSException *exception, BOOL block)
         //获取当前时间
         NSDate *date = [NSDate date];
         //日志文件名
-        NSString *logPath = [NSString stringWithFormat:@"Bemetoy%@.log", [date stringWithDateFormat:@" yyyy年-MM月-dd日 HH:mm:ss"]];
+        NSString *logPath = [NSString stringWithFormat:@"kenny%@.log", [date stringWithDateFormat:@" yyyy年-MM月-dd日 HH:mm:ss"]];
         NSError *error = nil;
         NSData *data = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:&error];
         

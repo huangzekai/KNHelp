@@ -1,9 +1,9 @@
 //
 //  UIColor+BM.m
-//  Bemetoy
+//  
 //
 //  Created by kennyhuang on 15/10/9.
-//  Copyright © 2015年 BM. All rights reserved.
+//  Copyright © 2015年 kennykhuang. All rights reserved.
 //
 
 #import "UIColor+KN.h"

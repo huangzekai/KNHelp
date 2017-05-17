@@ -1,6 +1,6 @@
 //
 //  BMAppColor.h
-//  Bemetoy
+//  
 //  所有颜色相关的都写在这里
 //  Created by kennyhuang on 15/10/9.
 //  Copyright © 2015年 BM. All rights reserved.

@@ -23,5 +23,17 @@
 @property (nonatomic, assign) CGSize size;
 
 - (void)removeAllSubviews;
+- (void)removeSubViewWithTag:(UInt32)uiTag;
+- (void)removeSubViewWithClass:(Class)oClass;
+- (UIView*)viewWithClass:(Class)oClass;
+- (NSArray*)subviewsWithClass:(Class)oClass;
+- (void) removeAllGestureRecognizer;
+
+- (void)autoresizingWithHorizontalCenter;
+- (void)autoresizingWithVerticalCenter;
+- (void)autoresizingWithStrechFullSize;
+
+- (UIViewController *)findViewController;
+- (id)traverseResponderChainForUIViewController;
 
 @end

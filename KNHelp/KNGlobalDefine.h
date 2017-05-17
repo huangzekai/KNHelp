@@ -45,7 +45,7 @@ static const int ddLogLevel = DDLogLevelError;
 ///////////////////////////////////////////////通知/////////////////////////////////////////////////////
 #define KNPostNotification(name, obj) [[NSNotificationCenter defaultCenter] postNotificationName:name object:obj]
 #define KNAddObserver(action, notifName) [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(action:) name:name object:nil]
-#define 
+#define KNRemoveObserver(name) [[NSNotificationCenter defaultCenter] removeObserver:self name:name object:nil]
 
 
 //单例化一个类

@@ -1,9 +1,9 @@
 //
 //  BMGIFImageView.h
-//  Bemetoy
+//
 //  gif播放视图
 //  Created by kennyHuang on 15-06-6-08.
-//  Copyright (c) 2014年 Bemetoy All rights reserved.
+//  Copyright (c) 2014年 kennykhuang All rights reserved.
 //
 
 //注:gif播放视图
