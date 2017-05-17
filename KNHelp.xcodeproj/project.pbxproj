@@ -39,12 +39,13 @@
 		9C3E2FCB1EC44AA600F47023 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FC61EC44AA500F47023 /* UILabel+Common.m */; };
 		9C3E2FCC1EC44AA600F47023 /* UITableView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FC81EC44AA500F47023 /* UITableView+Common.m */; };
 		9C3E2FCF1EC44C9900F47023 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E2FCE1EC44C9900F47023 /* UIView+Common.m */; };
-		9C9606611EC9C7FD00B272C3 /* KNAppStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9606601EC9C7FD00B272C3 /* KNAppStyle.m */; };
 		9C9606641EC9C9FD00B272C3 /* KNAppFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9606631EC9C9FD00B272C3 /* KNAppFont.m */; };
 		9C9607A11ECC79BA00B272C3 /* UIDevice+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9607A01ECC79BA00B272C3 /* UIDevice+Common.m */; };
 		9C9607A61ECC818A00B272C3 /* KNLongLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9607A51ECC818A00B272C3 /* KNLongLink.m */; };
 		9C9607A91ECC838500B272C3 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9607A81ECC838500B272C3 /* AsyncSocket.m */; };
 		9C9607AD1ECC868400B272C3 /* KNShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9607AC1ECC868400B272C3 /* KNShareManager.m */; };
+		9C9607B11ECC8B3800B272C3 /* KNGlobalUiAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9607B01ECC8B3800B272C3 /* KNGlobalUiAppearance.m */; };
+		9C9607B41ECC8B9500B272C3 /* KNAppStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9607B21ECC8B9500B272C3 /* KNAppStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,8 +128,6 @@
 		9C3E2FC81EC44AA500F47023 /* UITableView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Common.m"; sourceTree = "<group>"; };
 		9C3E2FCD1EC44C9900F47023 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		9C3E2FCE1EC44C9900F47023 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
-		9C96065F1EC9C7FD00B272C3 /* KNAppStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAppStyle.h; sourceTree = "<group>"; };
-		9C9606601EC9C7FD00B272C3 /* KNAppStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAppStyle.m; sourceTree = "<group>"; };
 		9C9606621EC9C9FD00B272C3 /* KNAppFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAppFont.h; sourceTree = "<group>"; };
 		9C9606631EC9C9FD00B272C3 /* KNAppFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAppFont.m; sourceTree = "<group>"; };
 		9C96079F1ECC79BA00B272C3 /* UIDevice+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Common.h"; sourceTree = "<group>"; };
@@ -139,6 +138,10 @@
 		9C9607A81ECC838500B272C3 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		9C9607AB1ECC868400B272C3 /* KNShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNShareManager.h; sourceTree = "<group>"; };
 		9C9607AC1ECC868400B272C3 /* KNShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNShareManager.m; sourceTree = "<group>"; };
+		9C9607AF1ECC8B3800B272C3 /* KNGlobalUiAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNGlobalUiAppearance.h; sourceTree = "<group>"; };
+		9C9607B01ECC8B3800B272C3 /* KNGlobalUiAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNGlobalUiAppearance.m; sourceTree = "<group>"; };
+		9C9607B21ECC8B9500B272C3 /* KNAppStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAppStyle.m; sourceTree = "<group>"; };
+		9C9607B31ECC8B9500B272C3 /* KNAppStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAppStyle.h; sourceTree = "<group>"; };
 		B39F98984891B44CA43CFFAF /* Pods-KNHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNHelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNHelp/Pods-KNHelp.release.xcconfig"; sourceTree = "<group>"; };
 		C305FC1F6265B7162CD4C723 /* libPods-KNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -184,6 +187,7 @@
 		7FFDC5361DB9B4DB00853A3E /* KNHelp */ = {
 			isa = PBXGroup;
 			children = (
+				9C9607AE1ECC8B2F00B272C3 /* Project */,
 				9C9607AA1ECC867B00B272C3 /* SocialShare */,
 				9C9607A21ECC816100B272C3 /* Network */,
 				9C2C73871EC2F3F700BBC5F2 /* APNSPush */,
@@ -205,8 +209,6 @@
 				751014F11EA85BF900AF95CB /* KNGlobalDefine.h */,
 				751014F21EA88AC900AF95CB /* KNGlobalConfig.h */,
 				751014F31EA88AC900AF95CB /* KNGlobalConfig.m */,
-				9C96065F1EC9C7FD00B272C3 /* KNAppStyle.h */,
-				9C9606601EC9C7FD00B272C3 /* KNAppStyle.m */,
 			);
 			path = KNHelp;
 			sourceTree = "<group>";
@@ -411,6 +413,17 @@
 			path = SocialShare;
 			sourceTree = "<group>";
 		};
+		9C9607AE1ECC8B2F00B272C3 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				9C9607B21ECC8B9500B272C3 /* KNAppStyle.m */,
+				9C9607B31ECC8B9500B272C3 /* KNAppStyle.h */,
+				9C9607AF1ECC8B3800B272C3 /* KNGlobalUiAppearance.h */,
+				9C9607B01ECC8B3800B272C3 /* KNGlobalUiAppearance.m */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
 		A08BBC77A3F271513D02560F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -532,9 +545,9 @@
 				7FFDC5751DB9FA2D00853A3E /* BaseFile.mm in Sources */,
 				7FFDC5CA1DBA691800853A3E /* KNLoginInfoManager.m in Sources */,
 				7FFDC56C1DB9B8C400853A3E /* GKTextView.m in Sources */,
-				9C9606611EC9C7FD00B272C3 /* KNAppStyle.m in Sources */,
 				7FFDC5C11DBA5B6400853A3E /* KNAppColor.m in Sources */,
 				7FFDC5781DB9FA4400853A3E /* NSMutableObject+SafeInsert.mm in Sources */,
+				9C9607B41ECC8B9500B272C3 /* KNAppStyle.m in Sources */,
 				9C2C73831EC2EF3C00BBC5F2 /* KNRMCacheViewController.m in Sources */,
 				9C3E2FCF1EC44C9900F47023 /* UIView+Common.m in Sources */,
 				9C9607AD1ECC868400B272C3 /* KNShareManager.m in Sources */,
@@ -545,6 +558,7 @@
 				7FFDC5C41DBA5C3900853A3E /* KNBaseTableViewController.m in Sources */,
 				7FFDC5721DB9BA2C00853A3E /* KNExceptionViewController.m in Sources */,
 				7FFDC5591DB9B74100853A3E /* KNFlowView.m in Sources */,
+				9C9607B11ECC8B3800B272C3 /* KNGlobalUiAppearance.m in Sources */,
 				7FFDC55A1DB9B74100853A3E /* KNGIFImageView.m in Sources */,
 				9C9607A61ECC818A00B272C3 /* KNLongLink.m in Sources */,
 				7FFDC56F1DB9B90600853A3E /* KNException.m in Sources */,
