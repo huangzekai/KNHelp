@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface KNGlobalConfig : NSObject
-
++ (void)defaultLogConfig;
 @end

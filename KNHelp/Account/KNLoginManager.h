@@ -11,34 +11,27 @@
 @protocol KNLoginManagerDelegate <NSObject>
 
 @required
-
 //令牌
 - (NSString *)token;
-
 //登录会员id
 - (NSUInteger)userId;
-
 //字符串的形式获取id
 - (NSString *)userIdString;
-
 //是否已经登录
 - (BOOL)isLogin;
-
 //登出
 - (void)logout;
-
 //登录
 - (void)login:(id)info;
-
 //保存登录信息
 - (void)save;
-
 @end
 
-@interface KNLoginInfoManager : NSObject
-
+@interface KNLoginManager : NSObject
+@property (nonatomic, weak) id<KNLoginManagerDelegate> delegate;
+@property (nonatomic, readonly) BOOL hasLogined;
 @end
 
 //继承类必须实现接口
-@interface KNLoginInfoManager(KN)// <KNLoginInfoDelegate>
+@interface KNLoginManager(KN)// <KNLoginInfoDelegate>
 @end

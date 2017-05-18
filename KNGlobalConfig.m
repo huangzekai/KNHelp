@@ -9,6 +9,7 @@
 #import "KNGlobalConfig.h"
 #import<CocoaLumberjack/CocoaLumberjack.h>
 #import "KNException.h"
+#import "KNGlobalUiAppearance.h"
 
 @implementation KNGlobalConfig
 
@@ -23,6 +24,9 @@
 #else
     //只发送到苹果
     [DDLog addLogger:[DDASLLogger sharedInstance]];
+    ///初始化UI
+    [KNGlobalUiAppearance initMainUiAppearance];
+    
 #endif
 }
 

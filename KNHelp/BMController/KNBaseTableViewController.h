@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "KNBaseViewController.h"
 
-@interface KNBaseTableViewController : KNBaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface KNBaseTableViewController : UIPageViewController<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, readonly) UITableView *tableView;
 - (instancetype)initWithTableViewStyle:(UITableViewStyle)style;
 @end

@@ -7,9 +7,14 @@
 //
 
 #import "KNAppMain.h"
+#import "KNLoginManager.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "KNGlobalDefine.h"
+#import "KNGlobalConfig.h"
+#import "KNAPNSPushManager.h"
 
 @interface KNAppMain ()
-
+@property (nonatomic, strong) KNLoginManager *loginManager;
 @end
 
 @implementation KNAppMain
@@ -50,7 +55,7 @@
             
             rect.origin.y = CGRectGetMaxY(rect);
             
-            if([self.loginManager isLogin])
+            if(self.loginManager.hasLogined)
             {
                 [controller.view addSubview:view];
                 modifyView = view;
@@ -84,6 +89,12 @@
     }
 }
 
+///获取根视图
+- (UIViewController *)rootViewController
+{
+    return nil;
+}
+
 + (KNAppMain *)shareInstance
 {
     return (KNAppMain *)[UIApplication sharedApplication].delegate;
@@ -105,7 +116,34 @@
     
     [self display];
 
+    //远程推送
+    NSDictionary *userInfo = launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey];
+    [KNApnsMsgManager handleRemoteNotificationWithUserInfo:userInfo];
+    
     return YES;
+}
+
+#pragma mark - 生命周期
+
+- (void)onAppLanuch
+{
+    DDLogInfo(@"-------app did lanuch--------");
+    [KNGlobalConfig defaultLogConfig];
+}
+
+- (void)onAppTerminate
+{
+    DDLogInfo(@"-------app did terminate--------");
+}
+
+- (void)onAppEnterBackground
+{
+    DDLogInfo(@"-------app did enter background--------");
+}
+
+- (void)onAppEnterForeground
+{
+    DDLogInfo(@"-------app did enter foreground--------");
 }
 
 @end

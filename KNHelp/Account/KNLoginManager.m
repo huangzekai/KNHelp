@@ -6,14 +6,14 @@
 //  Copyright © 2016年 KennyHuang. All rights reserved.
 //
 
-#import "KNLoginInfoManager.h"
+#import "KNLoginManager.h"
 #import "NSString+KN.h"
 #import <sys/xattr.h>
 
 //登录信息保存路径
 #define kLoginInfoFile @"syslogin".absolutePathComponent
 
-@implementation KNLoginInfoManager
+@implementation KNLoginManager
 /*
 //初始化
 - (id)init{

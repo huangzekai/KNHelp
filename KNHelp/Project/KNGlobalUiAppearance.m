@@ -7,6 +7,7 @@
 //
 
 #import "KNGlobalUiAppearance.h"
+#import "KNAppColor.h"
 
 @implementation KNGlobalUiAppearance
 
