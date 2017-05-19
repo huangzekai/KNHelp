@@ -214,10 +214,10 @@
 
 - (unsigned int)sendNoopingData
 {
-    if (EKNConnected != self.state)
+//    if (EKNConnected != self.state)
         return -1;
     
-    return [self sendMessage:NULL length:0 commonId:NOOP_CMDID_REQ];
+//    return [self sendMessage:nil];
 }
 
 ///发送消息
@@ -295,70 +295,70 @@
 
 #pragma mark - 回包
 
-- (void)parseResponseData:(NSData *)response errorType:(ErrCmdType&)errtype errorCode:(int&)errcode seq:(unsigned int &)seq
-{
-    
-    [self.resultData appendData:response];
-    
-    AutoBuffer bufrecv;
-    bufrecv.Write([self.resultData bytes], self.resultData.length);
-
-    while (0 < bufrecv.Length())
-    {
-        int cmdid = 0;
-        unsigned int packlen = 0;
-        AutoBuffer body;
-        
-        int unpackret = unmakenetmsgxp(bufrecv, cmdid, seq, packlen, body);
-        if (MSGXP_FALSE == unpackret)
-        {
-            DDLogError(@"long link unpack error length:%ld", bufrecv.Length());
-            errtype = ectNetMsgXP;
-            errcode = ectNetMsgXP_HandleBufferErr;
-            
-            [self clearResultData];
-            
-            return;
-        }
-        
-        NSString *recvFlag = (MSGXP_CONTINUE == unpackret) ? @"continue" : @"finish";
-        DDLogInfo(@"long link pack recv %@, seq:%d, cmdid:%d, recvlen:%d, packlen:%zu", recvFlag, seq, cmdid, self.resultData.length, bufrecv.Length(), packlen);
-        
-        if (MSGXP_CONTINUE == unpackret) //服务器端还有后续数据发送
-        {
-            [self.socket readDataWithTimeout:kRead_Timeout tag:0];
-            DDLogInfo(@"long link :服务器还有后续数据 seq:%d,cmdid:%d,recvlen:%d",seq,cmdid,self.resultData.length);
-            break;
-        }
-        else
-        {
-
-            long moveLenght = bufrecv.Move(-(int)(packlen));
-            
-            if (moveLenght == 0) { //为0的时候意味着包是完整的，可以把数据清除了
-                [self clearResultData];
-            }
-            DDLogInfo(@"moveToLenght:%ld",moveLenght);
-            if ([self noopingResponse:cmdid seq:seq buffer:body])
-            {
-                DDLogInfo(@"nooping response span");
-//                xdebug("noopresp span:%0", gettickspan(nooping_timeout));
-//                nooping_timeout = 0;
-            } else {
-                DDLogInfo(@"nooping response");
-            
-                OnLongLinkResponse(seq, cmdid, body);
-                
-                NSData *responseData = [CRequest2OC dataForHexForChar:(unsigned char*)body.Ptr() len:body.Length()];
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    if ([self.delegate respondsToSelector:@selector(longLink:responseData:commonId:)]) {
-                        [self.delegate longLink:nil responseData:responseData commonId:cmdid];
-                    }
-                });
-            }
-        }
-    }
-}
+//- (void)parseResponseData:(NSData *)response errorType:(ErrCmdType&)errtype errorCode:(int&)errcode seq:(unsigned int &)seq
+//{
+//    
+//    [self.resultData appendData:response];
+//    
+//    AutoBuffer bufrecv;
+//    bufrecv.Write([self.resultData bytes], self.resultData.length);
+//
+//    while (0 < bufrecv.Length())
+//    {
+//        int cmdid = 0;
+//        unsigned int packlen = 0;
+//        AutoBuffer body;
+//        
+//        int unpackret = unmakenetmsgxp(bufrecv, cmdid, seq, packlen, body);
+//        if (MSGXP_FALSE == unpackret)
+//        {
+//            DDLogError(@"long link unpack error length:%ld", bufrecv.Length());
+//            errtype = ectNetMsgXP;
+//            errcode = ectNetMsgXP_HandleBufferErr;
+//            
+//            [self clearResultData];
+//            
+//            return;
+//        }
+//        
+//        NSString *recvFlag = (MSGXP_CONTINUE == unpackret) ? @"continue" : @"finish";
+//        DDLogInfo(@"long link pack recv %@, seq:%d, cmdid:%d, recvlen:%d, packlen:%zu", recvFlag, seq, cmdid, self.resultData.length, bufrecv.Length(), packlen);
+//        
+//        if (MSGXP_CONTINUE == unpackret) //服务器端还有后续数据发送
+//        {
+//            [self.socket readDataWithTimeout:kRead_Timeout tag:0];
+//            DDLogInfo(@"long link :服务器还有后续数据 seq:%d,cmdid:%d,recvlen:%d",seq,cmdid,self.resultData.length);
+//            break;
+//        }
+//        else
+//        {
+//
+//            long moveLenght = bufrecv.Move(-(int)(packlen));
+//            
+//            if (moveLenght == 0) { //为0的时候意味着包是完整的，可以把数据清除了
+//                [self clearResultData];
+//            }
+//            DDLogInfo(@"moveToLenght:%ld",moveLenght);
+//            if ([self noopingResponse:cmdid seq:seq buffer:body])
+//            {
+//                DDLogInfo(@"nooping response span");
+////                xdebug("noopresp span:%0", gettickspan(nooping_timeout));
+////                nooping_timeout = 0;
+//            } else {
+//                DDLogInfo(@"nooping response");
+//            
+//                OnLongLinkResponse(seq, cmdid, body);
+//                
+//                NSData *responseData = [CRequest2OC dataForHexForChar:(unsigned char*)body.Ptr() len:body.Length()];
+//                dispatch_async(dispatch_get_main_queue(), ^{
+//                    if ([self.delegate respondsToSelector:@selector(longLink:responseData:commonId:)]) {
+//                        [self.delegate longLink:nil responseData:responseData commonId:cmdid];
+//                    }
+//                });
+//            }
+//        }
+//    }
+//}
 
 //- (NSTimeInterval)onSocket:(AsyncSocket *)sock shouldTimeoutReadWithTag:(long)tag
 //                   elapsed:(NSTimeInterval)elapsed bytesDone:(NSUInteger)length
@@ -367,45 +367,45 @@
 //    return 30;
 //}
 
-void OnLongLinkResponse(int anSeq, int anCmdID, const AutoBuffer& buf)
-{
-    
-    xinfo2_if(0==anSeq || -1==anSeq, TSF"notinfy seq:%_, cmdid:%_, len:%_", anSeq, anCmdID, buf.Length());
-    
-    onNotify(anSeq, anCmdID, buf);
-}
-
-- (BOOL)noopingResponse:(int)cmdid seq:(int)seq buffer:(AutoBuffer &)buf
-{
-    bool isNoop = false;
-    if (m_identifychecker.IsIdentifyResp(seq, cmdid))
-    {
-        DDLogInfo(@"KNLong link end nooping synccheck");
-        _syncOk = true;
-        isNoop = true;
-        m_identifychecker.OnIdentifyResp(buf);
-    }
-    
-    if (cmdid == NOOP_CMDID_RESP)
-    {
-        DDLogInfo(@"KNLong link end nooping");
-        _syncOk = true;
-        isNoop = true;
-        ::onRequestDoSync();
-    }
-    
-    return isNoop;
-}
-
-- (void)onResponseErrorWithType:(ErrCmdType)type errorCode:(int)code seq:(unsigned int)seq
-{
-    DDLogError(@"KNLong link response with errorType:%d, code:%d", type, code);
-    
-    if ([self.delegate respondsToSelector:@selector(longLink:reportErrorWithType:errorCode:seq:)])
-    {
-        [self.delegate longLink:self reportErrorWithType:type errorCode:code seq:seq];
-    }
-}
+//void OnLongLinkResponse(int anSeq, int anCmdID, const AutoBuffer& buf)
+//{
+//    
+//    xinfo2_if(0==anSeq || -1==anSeq, TSF"notinfy seq:%_, cmdid:%_, len:%_", anSeq, anCmdID, buf.Length());
+//    
+//    onNotify(anSeq, anCmdID, buf);
+//}
+//
+//- (BOOL)noopingResponse:(int)cmdid seq:(int)seq buffer:(AutoBuffer &)buf
+//{
+//    bool isNoop = false;
+//    if (m_identifychecker.IsIdentifyResp(seq, cmdid))
+//    {
+//        DDLogInfo(@"KNLong link end nooping synccheck");
+//        _syncOk = true;
+//        isNoop = true;
+//        m_identifychecker.OnIdentifyResp(buf);
+//    }
+//    
+//    if (cmdid == NOOP_CMDID_RESP)
+//    {
+//        DDLogInfo(@"KNLong link end nooping");
+//        _syncOk = true;
+//        isNoop = true;
+//        ::onRequestDoSync();
+//    }
+//    
+//    return isNoop;
+//}
+//
+//- (void)onResponseErrorWithType:(ErrCmdType)type errorCode:(int)code seq:(unsigned int)seq
+//{
+//    DDLogError(@"KNLong link response with errorType:%d, code:%d", type, code);
+//    
+//    if ([self.delegate respondsToSelector:@selector(longLink:reportErrorWithType:errorCode:seq:)])
+//    {
+//        [self.delegate longLink:self reportErrorWithType:type errorCode:code seq:seq];
+//    }
+//}
 
 
 - (void)clearResultData

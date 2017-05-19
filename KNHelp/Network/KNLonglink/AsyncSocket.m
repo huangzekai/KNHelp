@@ -18,6 +18,7 @@
 #import <netinet/in.h>
 #import <arpa/inet.h>
 #import <netdb.h>
+#import "KNGlobalDefine.h"
 #import<CocoaLumberjack/CocoaLumberjack.h>
 
 #if TARGET_OS_IPHONE

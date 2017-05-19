@@ -7,6 +7,7 @@
 //
 
 #import "KNShareManager.h"
+/*
 #import "KNNotificationCenter.h"
 #import "SDWebImageManager.h"
 #import "UIImageExtend.h"
@@ -309,3 +310,5 @@ NSString *const wechatAppId = @"wx85c30bd14cb5051c";
 @implementation KNSocialShareData
 
 @end
+ 
+ */

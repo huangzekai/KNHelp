@@ -11,7 +11,6 @@
 #import <CocoaLumberjack/CocoaLumberjack.h>
 #import "KNGlobalDefine.h"
 #import "KNGlobalConfig.h"
-#import "KNAPNSPushManager.h"
 
 @interface KNAppMain ()
 @property (nonatomic, strong) KNLoginManager *loginManager;
@@ -115,10 +114,6 @@
     }
     
     [self display];
-
-    //远程推送
-    NSDictionary *userInfo = launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey];
-    [KNApnsMsgManager handleRemoteNotificationWithUserInfo:userInfo];
     
     return YES;
 }

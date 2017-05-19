@@ -44,28 +44,28 @@
 ///导航栏风格
 + (void)navigationBarAppStyle
 {
-    UIColor *navBgColor = [KNAppColor navigationBackgroundColor];
-    UIColor *navTitleColor = [KNAppColor navigationTitleColor];
-    [[UINavigationBar appearance] setBarTintColor:navBgColor];
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-    
-    NSDictionary *titleDictionary = @{NSForegroundColorAttributeName : navTitleColor,
-                                      NSFontAttributeName : [KNAppFont navigationTitleFont]};
-    [[UINavigationBar appearance] setTitleTextAttributes:titleDictionary];
+//    UIColor *navBgColor = [KNAppColor navigationBackgroundColor];
+//    UIColor *navTitleColor = [KNAppColor navigationTitleColor];
+//    [[UINavigationBar appearance] setBarTintColor:navBgColor];
+//    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+//    
+//    NSDictionary *titleDictionary = @{NSForegroundColorAttributeName : navTitleColor,
+//                                      NSFontAttributeName : [KNAppFont navigationTitleFont]};
+//    [[UINavigationBar appearance] setTitleTextAttributes:titleDictionary];
 }
 
 ///导航栏按钮风格
 + (void)navigationItemAppStyle
 {
-    UIColor *navTitleColor = [KNAppColor navigationTitleColor];
-    NSDictionary *itemDictionary = @{NSForegroundColorAttributeName : navTitleColor,
-                                     NSFontAttributeName : [KNAppFont navigationItemFont]};
-    NSDictionary *navBarDictionary = @{NSForegroundColorAttributeName:navTitleColor,
-                                       NSFontAttributeName:[KNAppFont navigationItemFont]};
-    
-    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:itemDictionary forState:UIControlStateNormal];
-    
-    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:navBarDictionary forState:UIControlStateHighlighted];
+//    UIColor *navTitleColor = [KNAppColor navigationTitleColor];
+//    NSDictionary *itemDictionary = @{NSForegroundColorAttributeName : navTitleColor,
+//                                     NSFontAttributeName : [KNAppFont navigationItemFont]};
+//    NSDictionary *navBarDictionary = @{NSForegroundColorAttributeName:navTitleColor,
+//                                       NSFontAttributeName:[KNAppFont navigationItemFont]};
+//    
+//    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:itemDictionary forState:UIControlStateNormal];
+//    
+//    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:navBarDictionary forState:UIControlStateHighlighted];
 }
 
 ///tabbar风格
@@ -98,19 +98,19 @@
 ///textField风格
 + (void)textFieldAppStyle
 {
-    UITextField *appearance = [UITextField appearance];
-    [appearance setBackgroundColor:[UIColor clearColor]];
-    [appearance setFont:[KNAppFont textFieldFont]];
-    [appearance setTextColor:[KNAppColor textFieldTextColor]];
-    [appearance setEnablesReturnKeyAutomatically:YES];
-    [appearance setClearButtonMode:UITextFieldViewModeWhileEditing];
-    [appearance setAutocapitalizationType:UITextAutocapitalizationTypeNone];
-    [appearance setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
-    [appearance setTintColor:[KNAppColor textFieldTintColor]];
-    
-    UIImage *bgImage = [UIImage imageNamed:@"inputfield_ border.png"];
-    bgImage = [bgImage stretchableImageWithLeftCapWidth:floorf(bgImage.size.width/2) topCapHeight:floorf(bgImage.size.height/2)];
-    [appearance setBackground:bgImage];
+//    UITextField *appearance = [UITextField appearance];
+//    [appearance setBackgroundColor:[UIColor clearColor]];
+//    [appearance setFont:[KNAppFont textFieldFont]];
+//    [appearance setTextColor:[KNAppColor textFieldTextColor]];
+//    [appearance setEnablesReturnKeyAutomatically:YES];
+//    [appearance setClearButtonMode:UITextFieldViewModeWhileEditing];
+//    [appearance setAutocapitalizationType:UITextAutocapitalizationTypeNone];
+//    [appearance setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
+//    [appearance setTintColor:[KNAppColor textFieldTintColor]];
+//    
+//    UIImage *bgImage = [UIImage imageNamed:@"inputfield_ border.png"];
+//    bgImage = [bgImage stretchableImageWithLeftCapWidth:floorf(bgImage.size.width/2) topCapHeight:floorf(bgImage.size.height/2)];
+//    [appearance setBackground:bgImage];
 }
 
 ///UILabel风格
