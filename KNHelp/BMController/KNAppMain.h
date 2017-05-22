@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KNAppMain : UIResponder
+@interface KNAppMain : UIResponder<UIApplicationDelegate>
 ///根视图
 @property(strong,nonatomic) UIWindow *window;
 
@@ -25,6 +25,7 @@
 
 @end
 
+//继承的子类实现此功能
 @interface KNAppMain (KNAbstract)
 
 - (void)willMakeKeyAndVisible;

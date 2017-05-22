@@ -10,9 +10,9 @@
 #import "AsyncSocket.h"
 #import "KNHelp.h"
 
-#define kDefault_TimeOut -1
-#define kRead_Timeout -1
-#define kWrite_TimeOut -1
+#define kConnectTimeOut -1
+#define kReadTimeout -1
+#define kWriteTimeOut -1
 #define KDefaultNoopTime 270
 #define NOOP_CMDID_REQ (1009)
 #define NOOP_CMDID_RESP (1000001009)
@@ -74,6 +74,7 @@
     self.noopingTimer = nil;
     
     [self.socket disconnect];
+    self.socket.delegate = nil;
     self.socket = nil;
     
     DDLogInfo(@"KNLong link dealloc %p", self);
@@ -129,7 +130,7 @@
         AsyncSocket *socket = [[AsyncSocket alloc] initWithDelegate:self];
         
         @try {
-            BOOL retCode = [socket connectToHost:self.host onPort:self.port withTimeout:kDefault_TimeOut error:&retError];
+            BOOL retCode = [socket connectToHost:self.host onPort:self.port withTimeout:kConnectTimeOut error:&retError];
             if (!retCode || nil != retError)
             {
                 DDLogError(@"KNLong link connect error:%@\n", [retError description]);
@@ -153,7 +154,7 @@
         NSError *retError = nil;
         @try {
             [self changeState:EKNConnecting];
-            BOOL retCode = [self.socket connectToHost:self.host onPort:self.port withTimeout:kDefault_TimeOut error:&retError];
+            BOOL retCode = [self.socket connectToHost:self.host onPort:self.port withTimeout:kConnectTimeOut error:&retError];
             if (!retCode || nil != retError)
             {
                 DDLogError(@"KNLong link connect error:%@\n", [retError description]);
@@ -212,19 +213,22 @@
     return NO;
 }
 
-- (unsigned int)sendNoopingData
+- (BOOL)sendNoopingData
 {
-//    if (EKNConnected != self.state)
-        return -1;
+    if (EKNConnected != self.state)
+        return NO;
     
-//    return [self sendMessage:nil];
+    NSData *data = [[NSData alloc]init];
+    [self sendMessage:data];
+    
+    return YES;
 }
 
 ///发送消息
 - (void)sendMessage:(NSData *)data
 {
     DDLogInfo(@"KNLong link send data with length:%ld", data.length);
-    [self.socket writeData:data withTimeout:kWrite_TimeOut tag:-1];
+    [self.socket writeData:data withTimeout:kWriteTimeOut tag:-1];
 }
 
 #pragma mark - AsyncSocketDelegate
@@ -259,15 +263,15 @@
     if (![sock isEqual:self.socket])
         return;
     [self changeState:EKNConnected];
-    NSLog(@"KNLong link socket didConnectTo<%@,%d>", host, port);
     DDLogInfo(@"KNLong link socket didConnectTo<%@,%d>", host, port);
-    [self.socket readDataWithTimeout:kDefault_TimeOut tag:0];
+    
+    [self.socket readDataWithTimeout:kConnectTimeOut tag:0];
     [self nextNoopingRequest];
 }
 
 - (void)onSocket:(AsyncSocket *)sock didWriteDataWithTag:(long)tag
 {
-    [self.socket readDataWithTimeout:kRead_Timeout buffer:nil bufferOffset:0 maxLength:MAX_BUFFER tag:0];
+    [self.socket readDataWithTimeout:kReadTimeout buffer:nil bufferOffset:0 maxLength:MAX_BUFFER tag:0];
 }
 
 - (void)onSocket:(AsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag {
@@ -326,7 +330,7 @@
 //        
 //        if (MSGXP_CONTINUE == unpackret) //服务器端还有后续数据发送
 //        {
-//            [self.socket readDataWithTimeout:kRead_Timeout tag:0];
+//            [self.socket readDataWithTimeout:kReadTimeout tag:0];
 //            DDLogInfo(@"long link :服务器还有后续数据 seq:%d,cmdid:%d,recvlen:%d",seq,cmdid,self.resultData.length);
 //            break;
 //        }

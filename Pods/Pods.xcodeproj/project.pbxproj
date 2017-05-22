@@ -1028,7 +1028,7 @@
 		2CFCA1A66CBE22673FFEABB3DD4004E1 /* UIButton+JKTouchAreaInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+JKTouchAreaInsets.m"; path = "JKCategories/UIKit/UIButton/UIButton+JKTouchAreaInsets.m"; sourceTree = "<group>"; };
 		2D09B79998C8C49A17BBFE79AB736191 /* CALayer+JKBorderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+JKBorderColor.h"; path = "JKCategories/QuartzCore/CALayer/CALayer+JKBorderColor.h"; sourceTree = "<group>"; };
 		2DAB02A47E38338676044D21A28BE0E9 /* NSObject+JKGCD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKGCD.h"; path = "JKCategories/Foundation/NSObject/NSObject+JKGCD.h"; sourceTree = "<group>"; };
-		2DE0D9EB4A4C0D3AA3E4F12A2F0D6D89 /* libJKCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJKCategories.a; path = libJKCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE0D9EB4A4C0D3AA3E4F12A2F0D6D89 /* libJKCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJKCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFFB610793AEC1B1FED5F9B10F35F0F /* UIButton+JKBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+JKBadge.h"; path = "JKCategories/UIKit/UIButton/UIButton+JKBadge.h"; sourceTree = "<group>"; };
 		2E2A1C421C50E0EAA27E0F6AE7846565 /* NSString+JKDictionaryValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JKDictionaryValue.h"; path = "JKCategories/Foundation/NSString/NSString+JKDictionaryValue.h"; sourceTree = "<group>"; };
 		2E8D1C8751D06B481BBA1E13A7F8105A /* XHTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTextField.h; path = Source/XHTextField.h; sourceTree = "<group>"; };
@@ -1126,11 +1126,11 @@
 		4D7B5E24286BF4F009659CBB24A183B4 /* UIViewController+JKStoreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JKStoreKit.m"; path = "JKCategories/UIKit/UIViewController/UIViewController+JKStoreKit.m"; sourceTree = "<group>"; };
 		4D7E7A83EEE14E3141B8CFD17A16BB77 /* MKMapView+JKZoomLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MKMapView+JKZoomLevel.h"; path = "JKCategories/MapKit/MKMapView/MKMapView+JKZoomLevel.h"; sourceTree = "<group>"; };
 		4DA7C479FAE163665F7CA65D92FC3910 /* NSURL+JKQueryDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+JKQueryDictionary.m"; path = "JKCategories/Foundation/NSURL/NSURL+JKQueryDictionary.m"; sourceTree = "<group>"; };
-		4E97944374C236419553FC6DE8792CF8 /* libNetworkEye.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNetworkEye.a; path = libNetworkEye.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E97944374C236419553FC6DE8792CF8 /* libNetworkEye.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkEye.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F78DFC10BBC1E2F0EE930184A73C948 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		4FAA710B198388B660BF2E8FF4D1FB2B /* NSObject+JKBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKBlocks.m"; path = "JKCategories/Foundation/NSObject/NSObject+JKBlocks.m"; sourceTree = "<group>"; };
 		4FDFA70A66E021E3A639BC1B66E29CA3 /* UIDevice+JKHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+JKHardware.h"; path = "JKCategories/UIKit/UIDevice/UIDevice+JKHardware.h"; sourceTree = "<group>"; };
-		5001BB8F3F82A35E0303977C41D38112 /* libLCTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLCTabBarController.a; path = libLCTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5001BB8F3F82A35E0303977C41D38112 /* libLCTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLCTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5082B0462011BE94EF41F8B5B2A01CA9 /* NSFileManager+JKPaths.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+JKPaths.h"; path = "JKCategories/Foundation/NSFileManager/NSFileManager+JKPaths.h"; sourceTree = "<group>"; };
 		509763EBAB7C08AFF8892131B4D6542E /* LCTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCTabBarController-dummy.m"; sourceTree = "<group>"; };
 		518B456C07399CB0041EFDCB77444672 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
@@ -1236,7 +1236,7 @@
 		6EB721947F05870EDC7F602BFA099E72 /* UIFont+JKDynamicFontControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+JKDynamicFontControl.m"; path = "JKCategories/UIKit/UIFont/UIFont+JKDynamicFontControl.m"; sourceTree = "<group>"; };
 		6EE9659974B06F835C2C0675367C25CC /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
 		6F0249AA81605E13D99E4D852FB9EA9D /* NSObject+JKAddProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKAddProperty.h"; path = "JKCategories/Foundation/NSObject/NSObject+JKAddProperty.h"; sourceTree = "<group>"; };
-		6F02D90B3658C66864E4E5D92BE85B34 /* libYTKKeyValueStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYTKKeyValueStore.a; path = libYTKKeyValueStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F02D90B3658C66864E4E5D92BE85B34 /* libYTKKeyValueStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYTKKeyValueStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F21548EA80127FC4F34DB1114B606EC /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
 		6F4866777BB28D94604DF334B52D918F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		6F773C24E549877D575D2399C3F1A115 /* LCTabBarController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LCTabBarController.bundle; path = LCTabBarController/LCTabBarController.bundle; sourceTree = "<group>"; };
@@ -1248,7 +1248,7 @@
 		7157E6584F7248E5279EF27D20428012 /* NEHTTPModelManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NEHTTPModelManager.m; path = NetworkEye/NetworkEye/NEHTTPModelManager.m; sourceTree = "<group>"; };
 		71B43EEA603CAD1FE6A2FA88862B806C /* NSSet+JKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+JKBlock.h"; path = "JKCategories/Foundation/NSSet/NSSet+JKBlock.h"; sourceTree = "<group>"; };
 		7275CA387DD8B7B6A63E449D29F9509F /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
-		7354A3219A5BFF3FED04A1B5B6A66B53 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7354A3219A5BFF3FED04A1B5B6A66B53 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		740D452DD07934FBB683566A292E3D87 /* NSDecimalNumber+JKCalculatingByString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+JKCalculatingByString.m"; path = "JKCategories/Foundation/NSNumber/NSDecimalNumber+JKCalculatingByString.m"; sourceTree = "<group>"; };
 		746C020CD4689A3EAA627ED645A20CA5 /* NSURLConnection+JKSelfSigned.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+JKSelfSigned.m"; path = "JKCategories/Foundation/NSURLConnection/NSURLConnection+JKSelfSigned.m"; sourceTree = "<group>"; };
 		756C7D26EA1C24139AB01AB366CF242F /* UIDevice+JKPasscodeStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+JKPasscodeStatus.m"; path = "JKCategories/UIKit/UIDevice/UIDevice+JKPasscodeStatus.m"; sourceTree = "<group>"; };
@@ -1277,7 +1277,7 @@
 		7F4F6B350906738B0140F8320B6289EE /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
 		80402F07384284F18E224D1145E8832B /* CAMediaTimingFunction+JKAdditionalEquations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+JKAdditionalEquations.h"; path = "JKCategories/QuartzCore/CAMediaTimingFunction/CAMediaTimingFunction+JKAdditionalEquations.h"; sourceTree = "<group>"; };
 		815F56F4F7573B70D7E6D4941DC3DA48 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
-		8165AC2D306A20AA22F0BE11BF27E225 /* libXHTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXHTextField.a; path = libXHTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8165AC2D306A20AA22F0BE11BF27E225 /* libXHTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXHTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		816CEE085B67B19BE17F8085887D2B82 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		8173BD9648B728102349AE97D61E58A5 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		81A5644B91E28721E7F9A5B07B635016 /* UIImage+JKRemoteSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JKRemoteSize.h"; path = "JKCategories/UIKit/UIImage/UIImage+JKRemoteSize.h"; sourceTree = "<group>"; };
@@ -1326,14 +1326,14 @@
 		8DD8457FC8E75DDC115BAC0A301756D9 /* PingFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingFoundation.h; path = RealReachability/Ping/PingFoundation.h; sourceTree = "<group>"; };
 		8E230CD101935475314DE3D2EC517C51 /* UIBarButtonItem+JKAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+JKAction.m"; path = "JKCategories/UIKit/UIBarButtonItem/UIBarButtonItem+JKAction.m"; sourceTree = "<group>"; };
 		8F022B127356975EED6BB8BC0C588A34 /* NSDateFormatter+JKMake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+JKMake.h"; path = "JKCategories/Foundation/NSDateFormatter/NSDateFormatter+JKMake.h"; sourceTree = "<group>"; };
-		8F149250C5C774A100156F12570CD389 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaLumberjack.a; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F70CECD6EFF9FC339FB6E9CCD59151E /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIQKeyboardManager.a; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F149250C5C774A100156F12570CD389 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F70CECD6EFF9FC339FB6E9CCD59151E /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		904978E2D3F7BDDB5BA8F78BB90978F0 /* LCTabBarCONST.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCTabBarCONST.h; path = LCTabBarController/LCTabBarCONST.h; sourceTree = "<group>"; };
 		907C1372C7ABD96B370D86ACDDA80090 /* UIApplication+JKPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+JKPermissions.h"; path = "JKCategories/UIKit/UIApplication/UIApplication+JKPermissions.h"; sourceTree = "<group>"; };
 		907DF4E218390CFE573F755E522AFB33 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		90A999D70888BE6FDEA9A200677260BD /* UIImageView+JKFaceAwareFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+JKFaceAwareFill.m"; path = "JKCategories/UIKit/UIImageView/UIImageView+JKFaceAwareFill.m"; sourceTree = "<group>"; };
 		90ADA077EFACB9B3CBC77410CC43D98C /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		90ADADAC7200E002E670BFC47EAF6D37 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ADADAC7200E002E670BFC47EAF6D37 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E0900DEC6A67761B3C1C24FDE4AF6A /* UIApplication+JKKeyboardFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JKKeyboardFrame.m"; path = "JKCategories/UIKit/UIApplication/UIApplication+JKKeyboardFrame.m"; sourceTree = "<group>"; };
 		911AF638462D30E1B98E835ED0909225 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		919989EB234F223763EFB27EA70B5B44 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
@@ -1342,12 +1342,12 @@
 		927F6FCE8EB57A6641B2531635E7563A /* UIButton+JKMiddleAligning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+JKMiddleAligning.m"; path = "JKCategories/UIKit/UIButton/UIButton+JKMiddleAligning.m"; sourceTree = "<group>"; };
 		9288231DE8C78C27C6FE1F1474EC49FA /* NSObject+JKAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKAssociatedObject.h"; path = "JKCategories/Foundation/NSObject/NSObject+JKAssociatedObject.h"; sourceTree = "<group>"; };
 		93320EF4F0819C80F74A00E3D93E9831 /* NSString+JKTrims.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JKTrims.h"; path = "JKCategories/Foundation/NSString/NSString+JKTrims.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93FF7B16C2E79EB03B1F6900BC7F6243 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		94A0EECB92721F5007C71781787C3DB4 /* NSString+JKRemoveEmoji.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JKRemoveEmoji.m"; path = "JKCategories/Foundation/NSString/NSString+JKRemoveEmoji.m"; sourceTree = "<group>"; };
 		94B9164039893ABA2C7102F07B01667B /* NSData+JKGzip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+JKGzip.m"; path = "JKCategories/Foundation/NSData/NSData+JKGzip.m"; sourceTree = "<group>"; };
 		95E0C954255EF183A2D86712285783EB /* UIBezierPath+JKLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+JKLength.m"; path = "JKCategories/UIKit/UIBezierPath/UIBezierPath+JKLength.m"; sourceTree = "<group>"; };
-		9693358FFB7F569FDA7A839E428D0BDF /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZNEmptyDataSet.a; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9693358FFB7F569FDA7A839E428D0BDF /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		97417E18CF200A2E2926C9190D072095 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		97530CD7919B3229505154C9D39B3C73 /* ZFSettingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSettingCell.m; path = ZFSetting/View/ZFSettingCell.m; sourceTree = "<group>"; };
 		9772E92DD9200EEB609D362344541AAE /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
@@ -1562,7 +1562,7 @@
 		D456A7EC01839D4F4988233675F06349 /* NEHTTPEye.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NEHTTPEye.m; path = NetworkEye/NetworkEye/NEHTTPEye.m; sourceTree = "<group>"; };
 		D466FD450A7F3219C3940F4FE40E5C6D /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		D4AFF23B13BF0BB9A1B21034EA1AC6AF /* JKCoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKCoreLocation.h; path = JKCategories/JKCoreLocation.h; sourceTree = "<group>"; };
-		D4B48DF1229F84B81BAE55F051EAFF8C /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONModel.a; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B48DF1229F84B81BAE55F051EAFF8C /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57C4779CA6FA5691771693DAD9802E1 /* UINavigationItem+JKLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+JKLoading.m"; path = "JKCategories/UIKit/UINavigationItem/UINavigationItem+JKLoading.m"; sourceTree = "<group>"; };
 		D5D4B48F2DEC7A266B426594C8BCF09E /* UIImageView+JKLetters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+JKLetters.m"; path = "JKCategories/UIKit/UIImageView/UIImageView+JKLetters.m"; sourceTree = "<group>"; };
 		D7E76BC19BA5AEE76EB2A2584C9E7940 /* NSDictionary+JKMerge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JKMerge.m"; path = "JKCategories/Foundation/NSDictionary/NSDictionary+JKMerge.m"; sourceTree = "<group>"; };
@@ -1591,7 +1591,7 @@
 		E1CB7F068BCB8F96B19B1A0DD0D2CDC7 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		E1E3956E7523340E88E00897FB47718E /* Pods-KNHelp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KNHelp-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2478183526F3FA68D5DD5333C339BEB /* NSManagedObject+JKDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+JKDictionary.h"; path = "JKCategories/CoreData/NSManagedObject/NSManagedObject+JKDictionary.h"; sourceTree = "<group>"; };
-		E3121078A19C61DC6EEF9A0AD3A19926 /* libZFSetting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZFSetting.a; path = libZFSetting.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3121078A19C61DC6EEF9A0AD3A19926 /* libZFSetting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZFSetting.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E399A06756A73EC9302BA5CC1B2EA710 /* NSManagedObject+JKExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+JKExtensions.m"; path = "JKCategories/CoreData/NSManagedObject/NSManagedObject+JKExtensions.m"; sourceTree = "<group>"; };
 		E3EB5DC3D9BB3AECCA264C68109CDCE7 /* XHTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHTextField-dummy.m"; sourceTree = "<group>"; };
 		E434D134C39275BB2E38313DB708678E /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
@@ -1607,7 +1607,7 @@
 		E735B659B24214A54F0B6426D031721D /* UIView+XHFindViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XHFindViewController.h"; path = "Source/UIView+XHFindViewController.h"; sourceTree = "<group>"; };
 		E75441561D4E8EFF697FD263E4A2097E /* CAAnimation+JKEasingEquations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+JKEasingEquations.m"; path = "JKCategories/QuartzCore/CAAnimation/CAAnimation+JKEasingEquations.m"; sourceTree = "<group>"; };
 		E769F6C0467EB2EF7C625C6BFD6BDBCA /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
-		E7C0073014C682A533508C1F93484107 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C0073014C682A533508C1F93484107 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F697166C88AF947E90600D8E4957EB /* Pods-KNHelp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KNHelp-dummy.m"; sourceTree = "<group>"; };
 		E88E91FF18A53A5909079890E5DBBC9A /* NSFileManager+JKPaths.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+JKPaths.m"; path = "JKCategories/Foundation/NSFileManager/NSFileManager+JKPaths.m"; sourceTree = "<group>"; };
 		E8FCD286610103325023FA1E3254D7DA /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
@@ -1620,12 +1620,12 @@
 		E9E27ADFC3742A6CE4E53146E4414C8D /* NSManagedObjectContext+JKFetchRequestsConstructors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+JKFetchRequestsConstructors.m"; path = "JKCategories/CoreData/NSManagedObjectContext/NSManagedObjectContext+JKFetchRequestsConstructors.m"; sourceTree = "<group>"; };
 		E9F27555A73EE9A486926A11B04D90D5 /* LCTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCTabBar.m; path = LCTabBarController/LCTabBar.m; sourceTree = "<group>"; };
 		EA753346178250CC4DFBFF6EDF5FCD77 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
-		EAE3011B59AAA9ABCC6EADB024844815 /* libPods-KNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KNHelp.a"; path = "libPods-KNHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE3011B59AAA9ABCC6EADB024844815 /* libPods-KNHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF72601A18117DC39B5B4B626947377 /* UIButton+JKMiddleAligning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+JKMiddleAligning.h"; path = "JKCategories/UIKit/UIButton/UIButton+JKMiddleAligning.h"; sourceTree = "<group>"; };
 		EB135FD6564E0A267B31D94842146DB5 /* NetworkEye.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkEye.xcconfig; sourceTree = "<group>"; };
 		EB6A9D6A9D6B1A3E84A16147231F5CBB /* XHTextField.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = XHTextField.bundle; path = Source/XHTextField.bundle; sourceTree = "<group>"; };
 		EBF3A9BBC7AB34E7B7C1110431CAE730 /* UIScrollView+JKAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+JKAddition.h"; path = "JKCategories/UIKit/UIScrollView/UIScrollView+JKAddition.h"; sourceTree = "<group>"; };
-		EC9CABDA3985C078FF62C9AF983C65CC /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9CABDA3985C078FF62C9AF983C65CC /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE946ECCC3C62EDCB7232032B5192AE /* NSObject+JKBlockTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKBlockTimer.m"; path = "JKCategories/Foundation/NSObject/NSObject+JKBlockTimer.m"; sourceTree = "<group>"; };
 		ED31B72118E7323C0ECC548A0D98CFCA /* CLLocation+JKCH1903.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+JKCH1903.h"; path = "JKCategories/CoreLocation/CLLocation/CLLocation+JKCH1903.h"; sourceTree = "<group>"; };
 		ED7B11D71CCC0D2E932FA123DAF42A7B /* NSData+JKDataCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+JKDataCache.m"; path = "JKCategories/Foundation/NSData/NSData+JKDataCache.m"; sourceTree = "<group>"; };
@@ -1642,7 +1642,7 @@
 		F1C218FB17CA054CD116646BE4DD334D /* NSNumber+JKRound.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+JKRound.m"; path = "JKCategories/Foundation/NSNumber/NSNumber+JKRound.m"; sourceTree = "<group>"; };
 		F26A5DD2FA284B5BDAD1517B6C427733 /* UIImage+JKAnimatedGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JKAnimatedGIF.h"; path = "JKCategories/UIKit/UIImage/UIImage+JKAnimatedGIF.h"; sourceTree = "<group>"; };
 		F28B8C21CADABB3BA1ECFAB2BF078DAE /* LCTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCTabBarItem.m; path = LCTabBarController/LCTabBarItem.m; sourceTree = "<group>"; };
-		F42207422FA392AF6EF34603505FC92C /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaAsyncSocket.a; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42207422FA392AF6EF34603505FC92C /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42FB0CE9B3E3FC68DCF878FF51D5AC5 /* XHTextFieldScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHTextFieldScrollView.m; path = Source/XHTextFieldScrollView.m; sourceTree = "<group>"; };
 		F44BCC00099BE7FFAB1DD27959006548 /* NSString+JKMIME.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JKMIME.h"; path = "JKCategories/Foundation/NSString/NSString+JKMIME.h"; sourceTree = "<group>"; };
 		F47A12B5591A6FD210D213EDD76EEA0B /* NSDate+JKFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JKFormatter.m"; path = "JKCategories/Foundation/NSDate/NSDate+JKFormatter.m"; sourceTree = "<group>"; };
@@ -1661,12 +1661,12 @@
 		F6FBAE3123D7A6B9164622CD5CE28BCC /* NSArray+JKBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JKBlock.h"; path = "JKCategories/Foundation/NSArray/NSArray+JKBlock.h"; sourceTree = "<group>"; };
 		F779D43F46CDB09B3FD599F1F5CAB621 /* NSObject+JKAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKAssociatedObject.m"; path = "JKCategories/Foundation/NSObject/NSObject+JKAssociatedObject.m"; sourceTree = "<group>"; };
 		F77C9E1D27477B38F87866474BF386F8 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
-		F77E9B6ADF12A5E9FEF113D381F431C3 /* libRealReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRealReachability.a; path = libRealReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77E9B6ADF12A5E9FEF113D381F431C3 /* libRealReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRealReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77EA07D5629B4C089E81A762565303A /* MKMapView+JKBetterMaps.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+JKBetterMaps.m"; path = "JKCategories/MapKit/MKMapView/MKMapView+JKBetterMaps.m"; sourceTree = "<group>"; };
 		F81839A60B82B5F8503D57192C133D6D /* UITextView+JKPinchZoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+JKPinchZoom.h"; path = "JKCategories/UIKit/UITextView/UITextView+JKPinchZoom.h"; sourceTree = "<group>"; };
 		F855DF4678BEA16475FA3A78CF5988E8 /* ZFSetting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFSetting-dummy.m"; sourceTree = "<group>"; };
 		F8F1E817C8AEB5B457217AB11CFDEBF1 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		F90E701E892BA58B966EBF923022E825 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90E701E892BA58B966EBF923022E825 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F968DA6B757894D3CD76DE7495E9E6A4 /* YTKKeyValueStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTKKeyValueStore-prefix.pch"; sourceTree = "<group>"; };
 		FA232D9443516DD28AB55691D19C53A9 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
 		FAAFF545266D434AC8CE494DFA5C373D /* NEMapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NEMapViewController.h; path = NetworkEye/NetworkEye/NEMapViewController.h; sourceTree = "<group>"; };
@@ -1861,7 +1861,6 @@
 				A3C42CBA38F5C4262B6AF37AC7539B82 /* standard */,
 				1A04BF12501883B931674B7B546AF472 /* Support Files */,
 			);
-			name = NetworkEye;
 			path = NetworkEye;
 			sourceTree = "<group>";
 		};
@@ -1918,7 +1917,6 @@
 				E5DF0C531846BE9A93BE1B1B6E0858A0 /* Resources */,
 				8F2600C8266C53B67E06AE2C44C79DC1 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -1968,7 +1966,6 @@
 				CC13B9112474ABADC0D92328813E3249 /* YTKKeyValueStore.m */,
 				589EF0D0EF57C0F8882BD046B0984086 /* Support Files */,
 			);
-			name = YTKKeyValueStore;
 			path = YTKKeyValueStore;
 			sourceTree = "<group>";
 		};
@@ -2039,7 +2036,6 @@
 				3F9C33554F63C49E9B6FA1C5A9BDBFC4 /* GCDAsyncUdpSocket.m */,
 				7C35E57EAD83966E5ED759AE6D0A3150 /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -2049,7 +2045,6 @@
 				D7F9F7428276C272F7805669C50A7E98 /* Core */,
 				FE6568023646EBF99426A8F644502F1B /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -2068,7 +2063,6 @@
 				15C0AE33022CDF82298DA0D7F50A1C79 /* Resources */,
 				B55FCED6E02EEBA2E3E310069B18CD8D /* Support Files */,
 			);
-			name = LCTabBarController;
 			path = LCTabBarController;
 			sourceTree = "<group>";
 		};
@@ -2508,7 +2502,6 @@
 				079006A2A76C74D533E00E2494F8D397 /* UIWindow+JKHierarchy.m */,
 				E55C709F84E8705C6542E121FA97D872 /* Support Files */,
 			);
-			name = JKCategories;
 			path = JKCategories;
 			sourceTree = "<group>";
 		};
@@ -2606,7 +2599,6 @@
 				65906B40E2EE300988D917D3FC985F2C /* UIScrollView+EmptyDataSet.m */,
 				EA76055C15450E7C37696228576594E0 /* Support Files */,
 			);
-			name = DZNEmptyDataSet;
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
@@ -2720,7 +2712,6 @@
 				B277BF1E832B319E531F7BDBE43D11D3 /* JSONValueTransformer.m */,
 				6EFA878A9904E5BF4368A76794B5C4E3 /* Support Files */,
 			);
-			name = JSONModel;
 			path = JSONModel;
 			sourceTree = "<group>";
 		};
@@ -2738,7 +2729,6 @@
 				FD8B2EA474E8A215575CA20A378E604D /* Resources */,
 				EA4498E0B0182416A487C5B7A7012B4A /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -2755,7 +2745,6 @@
 				5B9AABFBE3D73C0058E0E4B2E57159A6 /* ZFSettingItem.m */,
 				C29D413933921A89B1C1D6C6F397AEFF /* Support Files */,
 			);
-			name = ZFSetting;
 			path = ZFSetting;
 			sourceTree = "<group>";
 		};
@@ -2856,7 +2845,6 @@
 				F085FED7074F9DE5F2531F3175D9CC1C /* standard */,
 				9415A8F67010F080BD2FF3EA396BCC3A /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -2896,7 +2884,6 @@
 				E3DE131F9CB54BEAD72F48C30C77AB93 /* Resources */,
 				14D817A584438C773999F49DE18887E4 /* Support Files */,
 			);
-			name = IQKeyboardManager;
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
@@ -2912,7 +2899,6 @@
 				A7D82EF4E33F264F2F1270D2AEABA8B5 /* Resources */,
 				A6643113A4C18BAE06664E8E7C13216A /* Support Files */,
 			);
-			name = XHTextField;
 			path = XHTextField;
 			sourceTree = "<group>";
 		};
@@ -2965,7 +2951,6 @@
 				D6B553E057B2B81C3DF7798B96108240 /* Extensions */,
 				8A81A97C12BF260FE4977ABC39E8FE49 /* Support Files */,
 			);
-			name = CocoaLumberjack;
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
@@ -3054,7 +3039,6 @@
 				2B2EC60EDE8DF4484AD4587BA05CD564 /* Ping */,
 				3149BC4AEBE9467D4177CF2AA5357859 /* Support Files */,
 			);
-			name = RealReachability;
 			path = RealReachability;
 			sourceTree = "<group>";
 		};
@@ -3069,7 +3053,6 @@
 				C689D07BA43C0202E022624BF61FB2AE /* Support Files */,
 				FD94ECD86108E46C5C8B7C3A4BD582B6 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
